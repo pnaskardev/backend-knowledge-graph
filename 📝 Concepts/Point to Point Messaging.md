@@ -1,0 +1,18 @@
+# Point to Point Messaging
+
+**One-liner:** 
+
+**Why / when it's used:** 
+
+**Key trade-off:** 
+
+**Recall cue (write a Q, answer from memory later):**
+- Q: 
+- A: 
+
+---
+## 🔗 Connections
+- **Used by / relates to:** [[Message Queue]] [[Queue]]
+- **Contrast with:** [[Publish Subscribe]]
+
+#messaging #review

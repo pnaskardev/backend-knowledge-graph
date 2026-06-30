@@ -1,0 +1,86 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#distributed-systems",
+      "color": {
+        "a": 1,
+        "rgb": 15695415
+      }
+    },
+    {
+      "query": "tag:#microservices",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#messaging",
+      "color": {
+        "a": 1,
+        "rgb": 16754470
+      }
+    },
+    {
+      "query": "tag:#databases",
+      "color": {
+        "a": 1,
+        "rgb": 4286945
+      }
+    },
+    {
+      "query": "tag:#caching",
+      "color": {
+        "a": 1,
+        "rgb": 16007990
+      }
+    },
+    {
+      "query": "tag:#kubernetes",
+      "color": {
+        "a": 1,
+        "rgb": 3050327
+      }
+    },
+    {
+      "query": "tag:#system-design",
+      "color": {
+        "a": 1,
+        "rgb": 11765930
+      }
+    },
+    {
+      "query": "tag:#lld",
+      "color": {
+        "a": 1,
+        "rgb": 8311585
+      }
+    },
+    {
+      "query": "tag:#moc",
+      "color": {
+        "a": 1,
+        "rgb": 16766720
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.52,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 120,
+  "scale": 1.0216121802896179,
+  "close": true
+}

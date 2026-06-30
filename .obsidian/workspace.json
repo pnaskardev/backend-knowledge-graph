@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "773c16a8f95b6c10",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bc6d4c121c0409a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8879306c5e95bca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🗺️ MOCs/00 - Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 - Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "635668b37df0c43a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdcf130aaecece1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "547da7feabec6e16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ea9de62453d51c9c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4ff2bc5ca3da596f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "77a1c16d6523c250",
+    "type": "split",
+    "children": [
+      {
+        "id": "6836cadffb30e82f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21dcbe6893db5c3f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🗺️ MOCs/00 - Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 00 - Home"
+            }
+          },
+          {
+            "id": "46cc3d0e52cf1195",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🗺️ MOCs/00 - Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 00 - Home"
+            }
+          },
+          {
+            "id": "0d6e2a3492916685",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "71829749557b864e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c5a9c10769d79e4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🗺️ MOCs/00 - Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 00 - Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8879306c5e95bca7",
+  "lastOpenFiles": [
+    "🗺️ MOCs/00 - Home.md",
+    "💻 LLD Problems/ATM.md",
+    "🗺️ MOCs/Low Level Design MOC.md",
+    "🗺️ MOCs/Kubernetes MOC.md",
+    "🗺️ MOCs/Microservices MOC.md",
+    "🗺️ MOCs/Caching MOC.md",
+    "🗺️ MOCs/Databases MOC.md",
+    "🗺️ MOCs/How to Drill (Interview Mode).md",
+    "📂 Templates/System Design Template.md",
+    "📂 Templates/Pattern Template.md",
+    "📂 Templates/Interview Questions Template.md",
+    "📂 Templates/Concept Template.md",
+    "📝 Concepts/CAP Theorem.md",
+    "🗺️ MOCs/Distributed Systems MOC.md"
+  ]
+}
