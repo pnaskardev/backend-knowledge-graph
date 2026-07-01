@@ -1,14 +1,12 @@
 # Exponential Backoff
+This solves the problem of request hammering the instance while the system is recovering,
 
-**One-liner:** 
+Instead of hammering the instance the with 10K requests on regular time intervals lets increase the backoff time exponentially so that we give the instance some time to recover.
 
-**Why / when it's used:** 
-
-**Key trade-off:** 
-
-**Recall cue (write a Q, answer from memory later):**
-- Q: 
-- A: 
+This still has some problems like - 
+	What if is 10K clients fail together, in this case all 10K clients retry together at the same time with exponential backoff, even after adding delays.
+	
+The Solution is to add [[📝 Concepts/Jitter|Jitter]]
 
 ---
 ## 🔗 Connections
