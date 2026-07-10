@@ -1,14 +1,8 @@
 # Retry Pattern
 
-**One-liner:** 
+**One-liner:** Whenever we are in microservices the chances of systems going down or poison messages go up significantly.
 
-**Why / when it's used:** 
-
-**Key trade-off:** 
-
-**Recall cue (write a Q, answer from memory later):**
-- Q: 
-- A: 
+Whenever the service is down we need to retry atleast for a few times before we return system failure and give up.
 
 ---
 ## 🔗 Connections

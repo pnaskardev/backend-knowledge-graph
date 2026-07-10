@@ -1,0 +1,1587 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1783661567.6085598,
+    "ast_hash": "f9a0ccc2f6168c529e81a4c01c837cd7",
+    "semantic_hash": "f9a0ccc2f6168c529e81a4c01c837cd7"
+  },
+  ".obsidian/app.json": {
+    "mtime": 1783358545.2840292,
+    "ast_hash": "41043128eb3c189fc77993d64cb32e28",
+    "semantic_hash": "41043128eb3c189fc77993d64cb32e28"
+  },
+  ".obsidian/appearance.json": {
+    "mtime": 1783358545.2850294,
+    "ast_hash": "d207715bee0d3cf9caeedb6ac825de77",
+    "semantic_hash": "d207715bee0d3cf9caeedb6ac825de77"
+  },
+  ".obsidian/community-plugins.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  ".obsidian/core-plugins.json": {
+    "mtime": 1783358545.2480297,
+    "ast_hash": "5ae436e2ccac5cd8766263ba8efe9955",
+    "semantic_hash": "5ae436e2ccac5cd8766263ba8efe9955"
+  },
+  ".obsidian/graph.json": {
+    "mtime": 1782850663.88,
+    "ast_hash": "40cd9fd15c83e8f12d6b28f4dffbba48",
+    "semantic_hash": "40cd9fd15c83e8f12d6b28f4dffbba48"
+  },
+  ".obsidian/templates.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "88af4ac33cd6fdfec0047d26cd658f85",
+    "semantic_hash": "88af4ac33cd6fdfec0047d26cd658f85"
+  },
+  ".obsidian/workspace.json": {
+    "mtime": 1783358545.411028,
+    "ast_hash": "07dca1526ba92d7d18276f0305a42881",
+    "semantic_hash": "07dca1526ba92d7d18276f0305a42881"
+  },
+  "backend-knowledge-vault/vault/.obsidian/app.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "41043128eb3c189fc77993d64cb32e28",
+    "semantic_hash": "41043128eb3c189fc77993d64cb32e28"
+  },
+  "backend-knowledge-vault/vault/.obsidian/appearance.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "d207715bee0d3cf9caeedb6ac825de77",
+    "semantic_hash": "d207715bee0d3cf9caeedb6ac825de77"
+  },
+  "backend-knowledge-vault/vault/.obsidian/community-plugins.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  "backend-knowledge-vault/vault/.obsidian/core-plugins.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "6f25905a8f56b2b978e7348e15152f59",
+    "semantic_hash": "6f25905a8f56b2b978e7348e15152f59"
+  },
+  "backend-knowledge-vault/vault/.obsidian/graph.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "a8bba37334f809c32e9743cfbf8288b6",
+    "semantic_hash": "a8bba37334f809c32e9743cfbf8288b6"
+  },
+  "backend-knowledge-vault/vault/.obsidian/templates.json": {
+    "mtime": 1782847075.0,
+    "ast_hash": "88af4ac33cd6fdfec0047d26cd658f85",
+    "semantic_hash": "88af4ac33cd6fdfec0047d26cd658f85"
+  },
+  "README.md": {
+    "mtime": 1782847166.0,
+    "ast_hash": "82af3dc666507a5094f0afcbe4b02eec",
+    "semantic_hash": "82af3dc666507a5094f0afcbe4b02eec"
+  },
+  "backend-knowledge-vault/vault/README.md": {
+    "mtime": 1782847166.0,
+    "ast_hash": "82af3dc666507a5094f0afcbe4b02eec",
+    "semantic_hash": "82af3dc666507a5094f0afcbe4b02eec"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Chat Application.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f3c748eb50f82050cf779290be18c216",
+    "semantic_hash": "f3c748eb50f82050cf779290be18c216"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Distributed Cache (System Design).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1b0df197535eb01357d47d6027bb25d7",
+    "semantic_hash": "1b0df197535eb01357d47d6027bb25d7"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/File Storage.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "268b137e7d49f612c39691838e423115",
+    "semantic_hash": "268b137e7d49f612c39691838e423115"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/News Feed.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "907b9b2466671d60604c6c3b8e9445f0",
+    "semantic_hash": "907b9b2466671d60604c6c3b8e9445f0"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Notification Service.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2f31ae5f3e40c85db4374be0475ffde4",
+    "semantic_hash": "2f31ae5f3e40c85db4374be0475ffde4"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Pastebin.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f5af3c5cb5de4945ca6b0424c3e2c92e",
+    "semantic_hash": "f5af3c5cb5de4945ca6b0424c3e2c92e"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Payment Gateway.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a6ea96cddeafb499576efb56cdb05f58",
+    "semantic_hash": "a6ea96cddeafb499576efb56cdb05f58"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Rate Limiter.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "785de09fee129c8afe04ed4b1339ae20",
+    "semantic_hash": "785de09fee129c8afe04ed4b1339ae20"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Ride Sharing.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5bfe5a07a6da20aa4f51c8d5cdcef58a",
+    "semantic_hash": "5bfe5a07a6da20aa4f51c8d5cdcef58a"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Search Engine.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "20072474c9ca0e15004fba5e82bcb084",
+    "semantic_hash": "20072474c9ca0e15004fba5e82bcb084"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/URL Shortener.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "208db9f840c119497801cef48781e8d9",
+    "semantic_hash": "208db9f840c119497801cef48781e8d9"
+  },
+  "backend-knowledge-vault/vault/\ud83c\udfdb\ufe0f System Designs/Video Streaming.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c0fc456cee94e3536acd4ce3af1dfafc",
+    "semantic_hash": "c0fc456cee94e3536acd4ce3af1dfafc"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/ATM.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "abd94193d6bdebb1bd51b4ec09a0b358",
+    "semantic_hash": "abd94193d6bdebb1bd51b4ec09a0b358"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/BookMyShow.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f898b33dfef3ac928509ae43d86bff07",
+    "semantic_hash": "f898b33dfef3ac928509ae43d86bff07"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Cache (LLD).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3c556d657ed49945d9776a8c912b9263",
+    "semantic_hash": "3c556d657ed49945d9776a8c912b9263"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Chess.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f5a361d1e8f5352963348197f0259768",
+    "semantic_hash": "f5a361d1e8f5352963348197f0259768"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Elevator.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a67c3126942e7fea8fb946754ed9bb8c",
+    "semantic_hash": "a67c3126942e7fea8fb946754ed9bb8c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Food Delivery.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b82089c01522482bb9bd315bddc7090d",
+    "semantic_hash": "b82089c01522482bb9bd315bddc7090d"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Logger.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "939944a94942d7718c300f58d9f480ac",
+    "semantic_hash": "939944a94942d7718c300f58d9f480ac"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Parking Lot.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7bc591d2ab3692c3a86b43a4a6f92591",
+    "semantic_hash": "7bc591d2ab3692c3a86b43a4a6f92591"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcbb LLD Problems/Splitwise.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "596495de93000905db8f12c6c2b0f783",
+    "semantic_hash": "596495de93000905db8f12c6c2b0f783"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcc2 Templates/Concept Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "7e054ee1d39de916195ebcbc67789507",
+    "semantic_hash": "7e054ee1d39de916195ebcbc67789507"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcc2 Templates/Interview Questions Template.md": {
+    "mtime": 1782848637.0,
+    "ast_hash": "263f3086f8f977ac36edebee82296514",
+    "semantic_hash": "263f3086f8f977ac36edebee82296514"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcc2 Templates/Pattern Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "0caf558151352949fc16195e2488b6a6",
+    "semantic_hash": "0caf558151352949fc16195e2488b6a6"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcc2 Templates/System Design Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "77fcfe7cb3e070e5cd868fa37ff1ddb0",
+    "semantic_hash": "77fcfe7cb3e070e5cd868fa37ff1ddb0"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/ACID.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "475714f4ffa67cd1d1702bf7eb518c8c",
+    "semantic_hash": "475714f4ffa67cd1d1702bf7eb518c8c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/B+ Trees.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "6e215052dba9bcb77dbe7a5aa20ab7d0",
+    "semantic_hash": "6e215052dba9bcb77dbe7a5aa20ab7d0"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/BASE.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0d1ce98eaf96aded00062d9c26faa627",
+    "semantic_hash": "0d1ce98eaf96aded00062d9c26faa627"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Backpressure.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "140b316f25c666d924c40625b2259442",
+    "semantic_hash": "140b316f25c666d924c40625b2259442"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Binding.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "4d447df0cdde262023174318d22f8d8f",
+    "semantic_hash": "4d447df0cdde262023174318d22f8d8f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/CAP Theorem.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b50bf56769fccd9702a68fbd0884a737",
+    "semantic_hash": "b50bf56769fccd9702a68fbd0884a737"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Cache Aside.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8b3a22a041268a94f54f551fc91d44cb",
+    "semantic_hash": "8b3a22a041268a94f54f551fc91d44cb"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Cache Avalanche.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a7d0b0b4cce90bcb1493e1470a5a56eb",
+    "semantic_hash": "a7d0b0b4cce90bcb1493e1470a5a56eb"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Cache Invalidation.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7420c289c772a23edcf95edfb2f6408e",
+    "semantic_hash": "7420c289c772a23edcf95edfb2f6408e"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Cache Penetration.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f4f6afa1a35ec1824594c20c044dff6f",
+    "semantic_hash": "f4f6afa1a35ec1824594c20c044dff6f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Cache Stampede.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f96df217087446b30bffc7fd6f14a97b",
+    "semantic_hash": "f96df217087446b30bffc7fd6f14a97b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Circuit Breaking Concepts.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c054565e65833810ce3a08c01180d058",
+    "semantic_hash": "c054565e65833810ce3a08c01180d058"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Clock Synchronization.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2dc16c1b92b971ab87a6e032407af179",
+    "semantic_hash": "2dc16c1b92b971ab87a6e032407af179"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Clustered Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f365762ca71aa7f6da0695388a694bc3",
+    "semantic_hash": "f365762ca71aa7f6da0695388a694bc3"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Composite Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5ec3457c123f1ec0f33f30a5dd059cdd",
+    "semantic_hash": "5ec3457c123f1ec0f33f30a5dd059cdd"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/ConfigMap.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f33f851a14543aa87739e5d6c46dc20e",
+    "semantic_hash": "f33f851a14543aa87739e5d6c46dc20e"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Consensus Algorithms.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "01a33e377077e67e3546ade85c259889",
+    "semantic_hash": "01a33e377077e67e3546ade85c259889"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Consistency Models.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c12858e7a1de9cf6e9a5c8e73bc7c3c9",
+    "semantic_hash": "c12858e7a1de9cf6e9a5c8e73bc7c3c9"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Consumer Groups.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a71853a2cdddd3a1f745c0ac11482cad",
+    "semantic_hash": "a71853a2cdddd3a1f745c0ac11482cad"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Consumer.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "474c9177200497fe5226a2b41443c42f",
+    "semantic_hash": "474c9177200497fe5226a2b41443c42f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Container.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "396d4f64c2dddd38fd7f7c0434d78906",
+    "semantic_hash": "396d4f64c2dddd38fd7f7c0434d78906"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Covering Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "85964449e856e725658facbe8e0d9d02",
+    "semantic_hash": "85964449e856e725658facbe8e0d9d02"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Dead Letter Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0e8c5764c0504620226f8cf8e917fb9f",
+    "semantic_hash": "0e8c5764c0504620226f8cf8e917fb9f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Deployment.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "919de3053630f77c1b770df101d4afea",
+    "semantic_hash": "919de3053630f77c1b770df101d4afea"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Design Patterns.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "431b33c9dd60f5ada935db709d584f1f",
+    "semantic_hash": "431b33c9dd60f5ada935db709d584f1f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Direct Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "43274aa1afc44ec6ad8eb6c894206797",
+    "semantic_hash": "43274aa1afc44ec6ad8eb6c894206797"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Distributed Cache.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "dcf61f2eed2b1c746a51cb149a816b21",
+    "semantic_hash": "dcf61f2eed2b1c746a51cb149a816b21"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Distributed Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e7f2244a2b1b2bbcd4ab90763a4b3bad",
+    "semantic_hash": "e7f2244a2b1b2bbcd4ab90763a4b3bad"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Distributed Systems Trade-offs.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a0a2e3f56bc2a9855ec49571908f51a5",
+    "semantic_hash": "a0a2e3f56bc2a9855ec49571908f51a5"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Docker.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "4b8d02a6d8a62eb26ae69f1a3404a466",
+    "semantic_hash": "4b8d02a6d8a62eb26ae69f1a3404a466"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/DynamoDB-style Stores.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "cd4ddcacfdeacec697b5dc29e6447313",
+    "semantic_hash": "cd4ddcacfdeacec697b5dc29e6447313"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Event Driven Architecture.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78b7608200caf09d7d9c1f70562b450f",
+    "semantic_hash": "78b7608200caf09d7d9c1f70562b450f"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Event Versioning.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "bff4deffd176c0b8db9493ffa70318b7",
+    "semantic_hash": "bff4deffd176c0b8db9493ffa70318b7"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Exactly Once vs At Least Once vs At Most Once.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0632d4f79b28b542b707a98bd596fd08",
+    "semantic_hash": "0632d4f79b28b542b707a98bd596fd08"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "75b405aa731b156210150c5fc9d0b754",
+    "semantic_hash": "75b405aa731b156210150c5fc9d0b754"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Exponential Backoff.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5b49005e8f9668a352ec786666168759",
+    "semantic_hash": "5b49005e8f9668a352ec786666168759"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Failure Handling.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5d3102c039cbbc7ae844915d3338355c",
+    "semantic_hash": "5d3102c039cbbc7ae844915d3338355c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Fanout Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3712216da6139f5e8787e69a3d1478e1",
+    "semantic_hash": "3712216da6139f5e8787e69a3d1478e1"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Headers Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "aaa84df1a5fb86992633eca16401a560",
+    "semantic_hash": "aaa84df1a5fb86992633eca16401a560"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Horizontal Pod Autoscaler.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1d223f35e2614c2977bf347e8a42a7cb",
+    "semantic_hash": "1d223f35e2614c2977bf347e8a42a7cb"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Idempotency.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9505eb709f2d317db6e864daaae362ad",
+    "semantic_hash": "9505eb709f2d317db6e864daaae362ad"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Ingress.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "297f3ee8815b476edcbdda340698cb9b",
+    "semantic_hash": "297f3ee8815b476edcbdda340698cb9b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Isolation Levels.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3e59f9c296ad3470e2c87ba30137afca",
+    "semantic_hash": "3e59f9c296ad3470e2c87ba30137afca"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Jitter.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2f7fddab8938799475af591aa0d347df",
+    "semantic_hash": "2f7fddab8938799475af591aa0d347df"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Kafka Replay.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b9f5408bd84bb6ffb16a671b4fd7e0e1",
+    "semantic_hash": "b9f5408bd84bb6ffb16a671b4fd7e0e1"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Kafka vs RabbitMQ.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "470163eefb38626c6e8bd135c5c0f932",
+    "semantic_hash": "470163eefb38626c6e8bd135c5c0f932"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Kafka.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b671e6c865e7a8b0b01f87c059aa5854",
+    "semantic_hash": "b671e6c865e7a8b0b01f87c059aa5854"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Kubernetes.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "980166c4f21a1b5da3213ce3fa911383",
+    "semantic_hash": "980166c4f21a1b5da3213ce3fa911383"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Leader Election.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78807d236ad9cd9fc09ab9b503ab5988",
+    "semantic_hash": "78807d236ad9cd9fc09ab9b503ab5988"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Liveness Probe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ee44240c50a195ccf47ca7dd06216bef",
+    "semantic_hash": "ee44240c50a195ccf47ca7dd06216bef"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/MVCC.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8c7f0c890cc235d171533a7a3c6d62d4",
+    "semantic_hash": "8c7f0c890cc235d171533a7a3c6d62d4"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Message Ordering.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1bc6395514c6584d309858828b80c099",
+    "semantic_hash": "1bc6395514c6584d309858828b80c099"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Message Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9aeda1e8309244f1ce89d94fd7195f71",
+    "semantic_hash": "9aeda1e8309244f1ce89d94fd7195f71"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Offset.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "299033ec8ad2b2fdc57be2f44a8ad41b",
+    "semantic_hash": "299033ec8ad2b2fdc57be2f44a8ad41b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Optimistic Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e310adbab3f64196a5638c410dd9fe4c",
+    "semantic_hash": "e310adbab3f64196a5638c410dd9fe4c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/PACELC.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "924d3a2ce25cbdff931825298091cad0",
+    "semantic_hash": "924d3a2ce25cbdff931825298091cad0"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Partition.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f107338eb3ce6f46a3edd6e89ca3fc0c",
+    "semantic_hash": "f107338eb3ce6f46a3edd6e89ca3fc0c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Partitioning.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "43f64f9fe4a4ae98e0c0121a0effee95",
+    "semantic_hash": "43f64f9fe4a4ae98e0c0121a0effee95"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Pessimistic Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b30601a77537d2ad8fb41c4468f6d810",
+    "semantic_hash": "b30601a77537d2ad8fb41c4468f6d810"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Pod.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2af7f5960d28bb8fc9533609bc4417e8",
+    "semantic_hash": "2af7f5960d28bb8fc9533609bc4417e8"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Point to Point Messaging.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9ff444d816199466f26003233a695577",
+    "semantic_hash": "9ff444d816199466f26003233a695577"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Poison Messages.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2cb6e9265bd11d0d8b6323443a1f4e51",
+    "semantic_hash": "2cb6e9265bd11d0d8b6323443a1f4e51"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Producer.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78bb1636587341cab775812212057949",
+    "semantic_hash": "78bb1636587341cab775812212057949"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Publish Subscribe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0ab934ba3cee5a1158c161dcd821fdda",
+    "semantic_hash": "0ab934ba3cee5a1158c161dcd821fdda"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "d9281e5db6e51e71c616883447253894",
+    "semantic_hash": "d9281e5db6e51e71c616883447253894"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Quorum Reads and Writes.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f19db46e702eb5fa519b454f088a384c",
+    "semantic_hash": "f19db46e702eb5fa519b454f088a384c"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/RabbitMQ.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9b9dd436a2330020a4dfa2554f6cecd1",
+    "semantic_hash": "9b9dd436a2330020a4dfa2554f6cecd1"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Read Replicas.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "120adc3bd32e6fe5e0057fb988acb886",
+    "semantic_hash": "120adc3bd32e6fe5e0057fb988acb886"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Readiness Probe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9a8de1843b8324f93b92c7da94077f5e",
+    "semantic_hash": "9a8de1843b8324f93b92c7da94077f5e"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Redis.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "98558761117b68aeb897d152ab5810c6",
+    "semantic_hash": "98558761117b68aeb897d152ab5810c6"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Refresh Ahead.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0af0fe3067f0c7322269690b96436887",
+    "semantic_hash": "0af0fe3067f0c7322269690b96436887"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/ReplicaSet.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0767ac37cfc3aeb36ef1c847558617db",
+    "semantic_hash": "0767ac37cfc3aeb36ef1c847558617db"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Replication.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ec1828b72314f0e266126522d7e7eaa3",
+    "semantic_hash": "ec1828b72314f0e266126522d7e7eaa3"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Retry Strategies.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ba81da3eb54d34b3c7a09062a5c7b0dd",
+    "semantic_hash": "ba81da3eb54d34b3c7a09062a5c7b0dd"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Routing Key.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1f3babcecc25015155234b9684733114",
+    "semantic_hash": "1f3babcecc25015155234b9684733114"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/SOLID Principles.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ae0b5ac0b1d4f6d1f71d93539d3d60e6",
+    "semantic_hash": "ae0b5ac0b1d4f6d1f71d93539d3d60e6"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/SQL vs NoSQL.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "40dcafddb4c14d2203e09281daf995ec",
+    "semantic_hash": "40dcafddb4c14d2203e09281daf995ec"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Schema Registry.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0f457dc7ec2bafc0116046df7469f22b",
+    "semantic_hash": "0f457dc7ec2bafc0116046df7469f22b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Secondary Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "367e02c89e4469e92b6308e1b7b85562",
+    "semantic_hash": "367e02c89e4469e92b6308e1b7b85562"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Service.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2d144e634e580f864d383fcadbb35ff0",
+    "semantic_hash": "2d144e634e580f864d383fcadbb35ff0"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Sharding.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7d829ff059a728f9ddc1e3114f5a5f2b",
+    "semantic_hash": "7d829ff059a728f9ddc1e3114f5a5f2b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Split Brain.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a55002186e114ab455691df5b01b050a",
+    "semantic_hash": "a55002186e114ab455691df5b01b050a"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Topic Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0c8b1e262727b9253a63e4da2acbe4e9",
+    "semantic_hash": "0c8b1e262727b9253a63e4da2acbe4e9"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Topic.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e38f86407561c98aa63be337db538ab1",
+    "semantic_hash": "e38f86407561c98aa63be337db538ab1"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Transactions.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "119b4a20aa0300f3789c28beaeb8d0ba",
+    "semantic_hash": "119b4a20aa0300f3789c28beaeb8d0ba"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/WebSockets-style Connections.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "444df4cd502b3c5ca13af03d86b045eb",
+    "semantic_hash": "444df4cd502b3c5ca13af03d86b045eb"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Write Behind.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "19a7474547750335e430898112cc1ae7",
+    "semantic_hash": "19a7474547750335e430898112cc1ae7"
+  },
+  "backend-knowledge-vault/vault/\ud83d\udcdd Concepts/Write Through.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0936239289bee6e4df0939dfbf0d4be4",
+    "semantic_hash": "0936239289bee6e4df0939dfbf0d4be4"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/00 - Home.md": {
+    "mtime": 1782848785.0,
+    "ast_hash": "46205f15754c7d61072b1e5d054de0cd",
+    "semantic_hash": "46205f15754c7d61072b1e5d054de0cd"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Caching MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "ef6a16c8217e40adbfa9a3ab395f1987",
+    "semantic_hash": "ef6a16c8217e40adbfa9a3ab395f1987"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Databases MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "d41c2171a512c3307dfac448f10b8d8b",
+    "semantic_hash": "d41c2171a512c3307dfac448f10b8d8b"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Distributed Systems MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "546d4145ec99dfe08ae34fa7ad4f9493",
+    "semantic_hash": "546d4145ec99dfe08ae34fa7ad4f9493"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/How to Drill (Interview Mode).md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "dd38b8e470fd75773e7fdd1f2995a3b3",
+    "semantic_hash": "dd38b8e470fd75773e7fdd1f2995a3b3"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/How to study fast.md": {
+    "mtime": 1782848651.0,
+    "ast_hash": "a8a929c5f354b78eccd09bdc2daf6e82",
+    "semantic_hash": "a8a929c5f354b78eccd09bdc2daf6e82"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Kubernetes MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "c1bde6a82865d8f69ad9606365309133",
+    "semantic_hash": "c1bde6a82865d8f69ad9606365309133"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Low Level Design MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "77e2c0b59992fc0e97345cb8d009d9d8",
+    "semantic_hash": "77e2c0b59992fc0e97345cb8d009d9d8"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Messaging MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "f8fd39da67733b11287a7b12ade795c4",
+    "semantic_hash": "f8fd39da67733b11287a7b12ade795c4"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/Microservices MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "a19e5551e7b049a767c149046932bb88",
+    "semantic_hash": "a19e5551e7b049a767c149046932bb88"
+  },
+  "backend-knowledge-vault/vault/\ud83d\uddfa\ufe0f MOCs/System Design MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "b27edab84c2ea61314ee78ae0523d4b0",
+    "semantic_hash": "b27edab84c2ea61314ee78ae0523d4b0"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/API Gateway.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e3ef52288d089afde64826856991a31e",
+    "semantic_hash": "e3ef52288d089afde64826856991a31e"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Adapter Pattern (Deployment).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "97f9f1eb61f080b53da7ba89f91b537f",
+    "semantic_hash": "97f9f1eb61f080b53da7ba89f91b537f"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Ambassador Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f6a2c2157203a95cb07c959b59849e6d",
+    "semantic_hash": "f6a2c2157203a95cb07c959b59849e6d"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Backend for Frontend (BFF).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8298849d8c1c8fe596b94276799d81c1",
+    "semantic_hash": "8298849d8c1c8fe596b94276799d81c1"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Bulkhead Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "bdf862694efb4aba3fa5c292e0f9cba6",
+    "semantic_hash": "bdf862694efb4aba3fa5c292e0f9cba6"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/CQRS.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7802b047ed0fb0eb8d23d3c66f16c556",
+    "semantic_hash": "7802b047ed0fb0eb8d23d3c66f16c556"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Circuit Breaker.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "97941a57ec42cdb5882a71f9be43cbe4",
+    "semantic_hash": "97941a57ec42cdb5882a71f9be43cbe4"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Database Migration Patterns.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "060ece2cc5fefbd0f2808a5cdfab22a6",
+    "semantic_hash": "060ece2cc5fefbd0f2808a5cdfab22a6"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Database per Service.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "4bdf7d8f5ed1396e42462de8145cc8fd",
+    "semantic_hash": "4bdf7d8f5ed1396e42462de8145cc8fd"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Event-Driven Architectures.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1d9f67873d310e9919afd9f272df1d17",
+    "semantic_hash": "1d9f67873d310e9919afd9f272df1d17"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Fallback Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7ee8a177c2b735c0ad371d2d7322fdca",
+    "semantic_hash": "7ee8a177c2b735c0ad371d2d7322fdca"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Inbox Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2def7259d26e50acc5a593de94b7cc51",
+    "semantic_hash": "2def7259d26e50acc5a593de94b7cc51"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Retry Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2f21461210ef9c654d46ead0e0a38044",
+    "semantic_hash": "2f21461210ef9c654d46ead0e0a38044"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/SAGA Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "090a5cc1fef29e875ba0a563141fd3b7",
+    "semantic_hash": "090a5cc1fef29e875ba0a563141fd3b7"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Service Discovery.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e80d6c4dff5121e88ebb60a86b25a24f",
+    "semantic_hash": "e80d6c4dff5121e88ebb60a86b25a24f"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Sidecar Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "dc013014fbdf8d40e9286e187a2891b3",
+    "semantic_hash": "dc013014fbdf8d40e9286e187a2891b3"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Strangler Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c98fdb0246986fc1899ef965d219f13f",
+    "semantic_hash": "c98fdb0246986fc1899ef965d219f13f"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Timeout Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3db56b75a88e012424b4b234ebfef77a",
+    "semantic_hash": "3db56b75a88e012424b4b234ebfef77a"
+  },
+  "backend-knowledge-vault/vault/\ud83e\udde9 Patterns/Transactional Outbox.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f7ece9c4694158d523d82d5a41eadf9d",
+    "semantic_hash": "f7ece9c4694158d523d82d5a41eadf9d"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Chat Application.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f3c748eb50f82050cf779290be18c216",
+    "semantic_hash": "f3c748eb50f82050cf779290be18c216"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Distributed Cache (System Design).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1b0df197535eb01357d47d6027bb25d7",
+    "semantic_hash": "1b0df197535eb01357d47d6027bb25d7"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/File Storage.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "268b137e7d49f612c39691838e423115",
+    "semantic_hash": "268b137e7d49f612c39691838e423115"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/News Feed.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "907b9b2466671d60604c6c3b8e9445f0",
+    "semantic_hash": "907b9b2466671d60604c6c3b8e9445f0"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Notification Service.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2f31ae5f3e40c85db4374be0475ffde4",
+    "semantic_hash": "2f31ae5f3e40c85db4374be0475ffde4"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Pastebin.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f5af3c5cb5de4945ca6b0424c3e2c92e",
+    "semantic_hash": "f5af3c5cb5de4945ca6b0424c3e2c92e"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Payment Gateway.md": {
+    "mtime": 1782850057.9212122,
+    "ast_hash": "a6ea96cddeafb499576efb56cdb05f58",
+    "semantic_hash": "a6ea96cddeafb499576efb56cdb05f58"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Rate Limiter.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "785de09fee129c8afe04ed4b1339ae20",
+    "semantic_hash": "785de09fee129c8afe04ed4b1339ae20"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Ride Sharing.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5bfe5a07a6da20aa4f51c8d5cdcef58a",
+    "semantic_hash": "5bfe5a07a6da20aa4f51c8d5cdcef58a"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Search Engine.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "20072474c9ca0e15004fba5e82bcb084",
+    "semantic_hash": "20072474c9ca0e15004fba5e82bcb084"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/URL Shortener.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "208db9f840c119497801cef48781e8d9",
+    "semantic_hash": "208db9f840c119497801cef48781e8d9"
+  },
+  "\ud83c\udfdb\ufe0f System Designs/Video Streaming.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c0fc456cee94e3536acd4ce3af1dfafc",
+    "semantic_hash": "c0fc456cee94e3536acd4ce3af1dfafc"
+  },
+  "\ud83d\udcbb LLD Problems/ATM.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "abd94193d6bdebb1bd51b4ec09a0b358",
+    "semantic_hash": "abd94193d6bdebb1bd51b4ec09a0b358"
+  },
+  "\ud83d\udcbb LLD Problems/BookMyShow.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f898b33dfef3ac928509ae43d86bff07",
+    "semantic_hash": "f898b33dfef3ac928509ae43d86bff07"
+  },
+  "\ud83d\udcbb LLD Problems/Cache (LLD).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3c556d657ed49945d9776a8c912b9263",
+    "semantic_hash": "3c556d657ed49945d9776a8c912b9263"
+  },
+  "\ud83d\udcbb LLD Problems/Chess.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f5a361d1e8f5352963348197f0259768",
+    "semantic_hash": "f5a361d1e8f5352963348197f0259768"
+  },
+  "\ud83d\udcbb LLD Problems/Elevator.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a67c3126942e7fea8fb946754ed9bb8c",
+    "semantic_hash": "a67c3126942e7fea8fb946754ed9bb8c"
+  },
+  "\ud83d\udcbb LLD Problems/Food Delivery.md": {
+    "mtime": 1782850057.9292123,
+    "ast_hash": "b82089c01522482bb9bd315bddc7090d",
+    "semantic_hash": "b82089c01522482bb9bd315bddc7090d"
+  },
+  "\ud83d\udcbb LLD Problems/Logger.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "939944a94942d7718c300f58d9f480ac",
+    "semantic_hash": "939944a94942d7718c300f58d9f480ac"
+  },
+  "\ud83d\udcbb LLD Problems/Parking Lot.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7bc591d2ab3692c3a86b43a4a6f92591",
+    "semantic_hash": "7bc591d2ab3692c3a86b43a4a6f92591"
+  },
+  "\ud83d\udcbb LLD Problems/Splitwise.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "596495de93000905db8f12c6c2b0f783",
+    "semantic_hash": "596495de93000905db8f12c6c2b0f783"
+  },
+  "\ud83d\udcc2 Templates/Concept Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "7e054ee1d39de916195ebcbc67789507",
+    "semantic_hash": "7e054ee1d39de916195ebcbc67789507"
+  },
+  "\ud83d\udcc2 Templates/Interview Questions Template.md": {
+    "mtime": 1782848637.0,
+    "ast_hash": "263f3086f8f977ac36edebee82296514",
+    "semantic_hash": "263f3086f8f977ac36edebee82296514"
+  },
+  "\ud83d\udcc2 Templates/Pattern Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "0caf558151352949fc16195e2488b6a6",
+    "semantic_hash": "0caf558151352949fc16195e2488b6a6"
+  },
+  "\ud83d\udcc2 Templates/System Design Template.md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "77fcfe7cb3e070e5cd868fa37ff1ddb0",
+    "semantic_hash": "77fcfe7cb3e070e5cd868fa37ff1ddb0"
+  },
+  "\ud83d\udcdd Concepts/ACID.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "475714f4ffa67cd1d1702bf7eb518c8c",
+    "semantic_hash": "475714f4ffa67cd1d1702bf7eb518c8c"
+  },
+  "\ud83d\udcdd Concepts/B+ Trees.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "6e215052dba9bcb77dbe7a5aa20ab7d0",
+    "semantic_hash": "6e215052dba9bcb77dbe7a5aa20ab7d0"
+  },
+  "\ud83d\udcdd Concepts/BASE.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0d1ce98eaf96aded00062d9c26faa627",
+    "semantic_hash": "0d1ce98eaf96aded00062d9c26faa627"
+  },
+  "\ud83d\udcdd Concepts/Backpressure.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "140b316f25c666d924c40625b2259442",
+    "semantic_hash": "140b316f25c666d924c40625b2259442"
+  },
+  "\ud83d\udcdd Concepts/Binding.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "4d447df0cdde262023174318d22f8d8f",
+    "semantic_hash": "4d447df0cdde262023174318d22f8d8f"
+  },
+  "\ud83d\udcdd Concepts/CAP Theorem.md": {
+    "mtime": 1782850520.1196961,
+    "ast_hash": "23efd7219fcab7aa95db3246b81f8464",
+    "semantic_hash": "23efd7219fcab7aa95db3246b81f8464"
+  },
+  "\ud83d\udcdd Concepts/Cache Aside.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8b3a22a041268a94f54f551fc91d44cb",
+    "semantic_hash": "8b3a22a041268a94f54f551fc91d44cb"
+  },
+  "\ud83d\udcdd Concepts/Cache Avalanche.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a7d0b0b4cce90bcb1493e1470a5a56eb",
+    "semantic_hash": "a7d0b0b4cce90bcb1493e1470a5a56eb"
+  },
+  "\ud83d\udcdd Concepts/Cache Invalidation.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7420c289c772a23edcf95edfb2f6408e",
+    "semantic_hash": "7420c289c772a23edcf95edfb2f6408e"
+  },
+  "\ud83d\udcdd Concepts/Cache Penetration.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f4f6afa1a35ec1824594c20c044dff6f",
+    "semantic_hash": "f4f6afa1a35ec1824594c20c044dff6f"
+  },
+  "\ud83d\udcdd Concepts/Cache Stampede.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f96df217087446b30bffc7fd6f14a97b",
+    "semantic_hash": "f96df217087446b30bffc7fd6f14a97b"
+  },
+  "\ud83d\udcdd Concepts/Circuit Breaking Concepts.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c054565e65833810ce3a08c01180d058",
+    "semantic_hash": "c054565e65833810ce3a08c01180d058"
+  },
+  "\ud83d\udcdd Concepts/Clock Synchronization.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2dc16c1b92b971ab87a6e032407af179",
+    "semantic_hash": "2dc16c1b92b971ab87a6e032407af179"
+  },
+  "\ud83d\udcdd Concepts/Clustered Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f365762ca71aa7f6da0695388a694bc3",
+    "semantic_hash": "f365762ca71aa7f6da0695388a694bc3"
+  },
+  "\ud83d\udcdd Concepts/Composite Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "5ec3457c123f1ec0f33f30a5dd059cdd",
+    "semantic_hash": "5ec3457c123f1ec0f33f30a5dd059cdd"
+  },
+  "\ud83d\udcdd Concepts/ConfigMap.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f33f851a14543aa87739e5d6c46dc20e",
+    "semantic_hash": "f33f851a14543aa87739e5d6c46dc20e"
+  },
+  "\ud83d\udcdd Concepts/Consensus Algorithms.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "01a33e377077e67e3546ade85c259889",
+    "semantic_hash": "01a33e377077e67e3546ade85c259889"
+  },
+  "\ud83d\udcdd Concepts/Consistency Models.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c12858e7a1de9cf6e9a5c8e73bc7c3c9",
+    "semantic_hash": "c12858e7a1de9cf6e9a5c8e73bc7c3c9"
+  },
+  "\ud83d\udcdd Concepts/Consumer Groups.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a71853a2cdddd3a1f745c0ac11482cad",
+    "semantic_hash": "a71853a2cdddd3a1f745c0ac11482cad"
+  },
+  "\ud83d\udcdd Concepts/Consumer.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "474c9177200497fe5226a2b41443c42f",
+    "semantic_hash": "474c9177200497fe5226a2b41443c42f"
+  },
+  "\ud83d\udcdd Concepts/Container.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "396d4f64c2dddd38fd7f7c0434d78906",
+    "semantic_hash": "396d4f64c2dddd38fd7f7c0434d78906"
+  },
+  "\ud83d\udcdd Concepts/Covering Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "85964449e856e725658facbe8e0d9d02",
+    "semantic_hash": "85964449e856e725658facbe8e0d9d02"
+  },
+  "\ud83d\udcdd Concepts/Dead Letter Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0e8c5764c0504620226f8cf8e917fb9f",
+    "semantic_hash": "0e8c5764c0504620226f8cf8e917fb9f"
+  },
+  "\ud83d\udcdd Concepts/Deployment.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "919de3053630f77c1b770df101d4afea",
+    "semantic_hash": "919de3053630f77c1b770df101d4afea"
+  },
+  "\ud83d\udcdd Concepts/Design Patterns.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "431b33c9dd60f5ada935db709d584f1f",
+    "semantic_hash": "431b33c9dd60f5ada935db709d584f1f"
+  },
+  "\ud83d\udcdd Concepts/Direct Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "43274aa1afc44ec6ad8eb6c894206797",
+    "semantic_hash": "43274aa1afc44ec6ad8eb6c894206797"
+  },
+  "\ud83d\udcdd Concepts/Distributed Cache.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "dcf61f2eed2b1c746a51cb149a816b21",
+    "semantic_hash": "dcf61f2eed2b1c746a51cb149a816b21"
+  },
+  "\ud83d\udcdd Concepts/Distributed Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e7f2244a2b1b2bbcd4ab90763a4b3bad",
+    "semantic_hash": "e7f2244a2b1b2bbcd4ab90763a4b3bad"
+  },
+  "\ud83d\udcdd Concepts/Distributed Systems Trade-offs.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a0a2e3f56bc2a9855ec49571908f51a5",
+    "semantic_hash": "a0a2e3f56bc2a9855ec49571908f51a5"
+  },
+  "\ud83d\udcdd Concepts/Docker.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "4b8d02a6d8a62eb26ae69f1a3404a466",
+    "semantic_hash": "4b8d02a6d8a62eb26ae69f1a3404a466"
+  },
+  "\ud83d\udcdd Concepts/DynamoDB-style Stores.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "cd4ddcacfdeacec697b5dc29e6447313",
+    "semantic_hash": "cd4ddcacfdeacec697b5dc29e6447313"
+  },
+  "\ud83d\udcdd Concepts/Event Driven Architecture.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78b7608200caf09d7d9c1f70562b450f",
+    "semantic_hash": "78b7608200caf09d7d9c1f70562b450f"
+  },
+  "\ud83d\udcdd Concepts/Event Versioning.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "bff4deffd176c0b8db9493ffa70318b7",
+    "semantic_hash": "bff4deffd176c0b8db9493ffa70318b7"
+  },
+  "\ud83d\udcdd Concepts/Exactly Once vs At Least Once vs At Most Once.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0632d4f79b28b542b707a98bd596fd08",
+    "semantic_hash": "0632d4f79b28b542b707a98bd596fd08"
+  },
+  "\ud83d\udcdd Concepts/Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "75b405aa731b156210150c5fc9d0b754",
+    "semantic_hash": "75b405aa731b156210150c5fc9d0b754"
+  },
+  "\ud83d\udcdd Concepts/Exponential Backoff.md": {
+    "mtime": 1782852227.2529528,
+    "ast_hash": "4c60d8dc0f26b2d9007be3444b889942",
+    "semantic_hash": "4c60d8dc0f26b2d9007be3444b889942"
+  },
+  "\ud83d\udcdd Concepts/Failure Handling.md": {
+    "mtime": 1783170334.3483977,
+    "ast_hash": "1d637772aa1da6c7ba08d8be1c21955e",
+    "semantic_hash": "1d637772aa1da6c7ba08d8be1c21955e"
+  },
+  "\ud83d\udcdd Concepts/Fanout Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3712216da6139f5e8787e69a3d1478e1",
+    "semantic_hash": "3712216da6139f5e8787e69a3d1478e1"
+  },
+  "\ud83d\udcdd Concepts/Headers Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "aaa84df1a5fb86992633eca16401a560",
+    "semantic_hash": "aaa84df1a5fb86992633eca16401a560"
+  },
+  "\ud83d\udcdd Concepts/Horizontal Pod Autoscaler.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1d223f35e2614c2977bf347e8a42a7cb",
+    "semantic_hash": "1d223f35e2614c2977bf347e8a42a7cb"
+  },
+  "\ud83d\udcdd Concepts/Idempotency.md": {
+    "mtime": 1782850057.9362123,
+    "ast_hash": "9505eb709f2d317db6e864daaae362ad",
+    "semantic_hash": "9505eb709f2d317db6e864daaae362ad"
+  },
+  "\ud83d\udcdd Concepts/Ingress.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "297f3ee8815b476edcbdda340698cb9b",
+    "semantic_hash": "297f3ee8815b476edcbdda340698cb9b"
+  },
+  "\ud83d\udcdd Concepts/Isolation Levels.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3e59f9c296ad3470e2c87ba30137afca",
+    "semantic_hash": "3e59f9c296ad3470e2c87ba30137afca"
+  },
+  "\ud83d\udcdd Concepts/Jitter.md": {
+    "mtime": 1782852414.3867557,
+    "ast_hash": "36c884830f3853e47fb38b1352932081",
+    "semantic_hash": "36c884830f3853e47fb38b1352932081"
+  },
+  "\ud83d\udcdd Concepts/Kafka Replay.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b9f5408bd84bb6ffb16a671b4fd7e0e1",
+    "semantic_hash": "b9f5408bd84bb6ffb16a671b4fd7e0e1"
+  },
+  "\ud83d\udcdd Concepts/Kafka vs RabbitMQ.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "470163eefb38626c6e8bd135c5c0f932",
+    "semantic_hash": "470163eefb38626c6e8bd135c5c0f932"
+  },
+  "\ud83d\udcdd Concepts/Kafka.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b671e6c865e7a8b0b01f87c059aa5854",
+    "semantic_hash": "b671e6c865e7a8b0b01f87c059aa5854"
+  },
+  "\ud83d\udcdd Concepts/Kubernetes.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "980166c4f21a1b5da3213ce3fa911383",
+    "semantic_hash": "980166c4f21a1b5da3213ce3fa911383"
+  },
+  "\ud83d\udcdd Concepts/Leader Election.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78807d236ad9cd9fc09ab9b503ab5988",
+    "semantic_hash": "78807d236ad9cd9fc09ab9b503ab5988"
+  },
+  "\ud83d\udcdd Concepts/Liveness Probe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ee44240c50a195ccf47ca7dd06216bef",
+    "semantic_hash": "ee44240c50a195ccf47ca7dd06216bef"
+  },
+  "\ud83d\udcdd Concepts/MVCC.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8c7f0c890cc235d171533a7a3c6d62d4",
+    "semantic_hash": "8c7f0c890cc235d171533a7a3c6d62d4"
+  },
+  "\ud83d\udcdd Concepts/Message Ordering.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1bc6395514c6584d309858828b80c099",
+    "semantic_hash": "1bc6395514c6584d309858828b80c099"
+  },
+  "\ud83d\udcdd Concepts/Message Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9aeda1e8309244f1ce89d94fd7195f71",
+    "semantic_hash": "9aeda1e8309244f1ce89d94fd7195f71"
+  },
+  "\ud83d\udcdd Concepts/Offset.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "299033ec8ad2b2fdc57be2f44a8ad41b",
+    "semantic_hash": "299033ec8ad2b2fdc57be2f44a8ad41b"
+  },
+  "\ud83d\udcdd Concepts/Optimistic Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e310adbab3f64196a5638c410dd9fe4c",
+    "semantic_hash": "e310adbab3f64196a5638c410dd9fe4c"
+  },
+  "\ud83d\udcdd Concepts/PACELC.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "924d3a2ce25cbdff931825298091cad0",
+    "semantic_hash": "924d3a2ce25cbdff931825298091cad0"
+  },
+  "\ud83d\udcdd Concepts/Partition.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f107338eb3ce6f46a3edd6e89ca3fc0c",
+    "semantic_hash": "f107338eb3ce6f46a3edd6e89ca3fc0c"
+  },
+  "\ud83d\udcdd Concepts/Partitioning.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "43f64f9fe4a4ae98e0c0121a0effee95",
+    "semantic_hash": "43f64f9fe4a4ae98e0c0121a0effee95"
+  },
+  "\ud83d\udcdd Concepts/Pessimistic Locking.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "b30601a77537d2ad8fb41c4468f6d810",
+    "semantic_hash": "b30601a77537d2ad8fb41c4468f6d810"
+  },
+  "\ud83d\udcdd Concepts/Pod.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2af7f5960d28bb8fc9533609bc4417e8",
+    "semantic_hash": "2af7f5960d28bb8fc9533609bc4417e8"
+  },
+  "\ud83d\udcdd Concepts/Point to Point Messaging.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9ff444d816199466f26003233a695577",
+    "semantic_hash": "9ff444d816199466f26003233a695577"
+  },
+  "\ud83d\udcdd Concepts/Poison Messages.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2cb6e9265bd11d0d8b6323443a1f4e51",
+    "semantic_hash": "2cb6e9265bd11d0d8b6323443a1f4e51"
+  },
+  "\ud83d\udcdd Concepts/Producer.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "78bb1636587341cab775812212057949",
+    "semantic_hash": "78bb1636587341cab775812212057949"
+  },
+  "\ud83d\udcdd Concepts/Publish Subscribe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0ab934ba3cee5a1158c161dcd821fdda",
+    "semantic_hash": "0ab934ba3cee5a1158c161dcd821fdda"
+  },
+  "\ud83d\udcdd Concepts/Queue.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "d9281e5db6e51e71c616883447253894",
+    "semantic_hash": "d9281e5db6e51e71c616883447253894"
+  },
+  "\ud83d\udcdd Concepts/Quorum Reads and Writes.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f19db46e702eb5fa519b454f088a384c",
+    "semantic_hash": "f19db46e702eb5fa519b454f088a384c"
+  },
+  "\ud83d\udcdd Concepts/RabbitMQ.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9b9dd436a2330020a4dfa2554f6cecd1",
+    "semantic_hash": "9b9dd436a2330020a4dfa2554f6cecd1"
+  },
+  "\ud83d\udcdd Concepts/Read Replicas.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "120adc3bd32e6fe5e0057fb988acb886",
+    "semantic_hash": "120adc3bd32e6fe5e0057fb988acb886"
+  },
+  "\ud83d\udcdd Concepts/Readiness Probe.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "9a8de1843b8324f93b92c7da94077f5e",
+    "semantic_hash": "9a8de1843b8324f93b92c7da94077f5e"
+  },
+  "\ud83d\udcdd Concepts/Redis.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "98558761117b68aeb897d152ab5810c6",
+    "semantic_hash": "98558761117b68aeb897d152ab5810c6"
+  },
+  "\ud83d\udcdd Concepts/Refresh Ahead.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0af0fe3067f0c7322269690b96436887",
+    "semantic_hash": "0af0fe3067f0c7322269690b96436887"
+  },
+  "\ud83d\udcdd Concepts/ReplicaSet.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0767ac37cfc3aeb36ef1c847558617db",
+    "semantic_hash": "0767ac37cfc3aeb36ef1c847558617db"
+  },
+  "\ud83d\udcdd Concepts/Replication.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ec1828b72314f0e266126522d7e7eaa3",
+    "semantic_hash": "ec1828b72314f0e266126522d7e7eaa3"
+  },
+  "\ud83d\udcdd Concepts/Retry Strategies.md": {
+    "mtime": 1782851962.4924154,
+    "ast_hash": "1d65cae0608d7cbfab1c1884f2733f5d",
+    "semantic_hash": "1d65cae0608d7cbfab1c1884f2733f5d"
+  },
+  "\ud83d\udcdd Concepts/Routing Key.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "1f3babcecc25015155234b9684733114",
+    "semantic_hash": "1f3babcecc25015155234b9684733114"
+  },
+  "\ud83d\udcdd Concepts/SOLID Principles.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "ae0b5ac0b1d4f6d1f71d93539d3d60e6",
+    "semantic_hash": "ae0b5ac0b1d4f6d1f71d93539d3d60e6"
+  },
+  "\ud83d\udcdd Concepts/SQL vs NoSQL.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "40dcafddb4c14d2203e09281daf995ec",
+    "semantic_hash": "40dcafddb4c14d2203e09281daf995ec"
+  },
+  "\ud83d\udcdd Concepts/Schema Registry.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0f457dc7ec2bafc0116046df7469f22b",
+    "semantic_hash": "0f457dc7ec2bafc0116046df7469f22b"
+  },
+  "\ud83d\udcdd Concepts/Secondary Index.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "367e02c89e4469e92b6308e1b7b85562",
+    "semantic_hash": "367e02c89e4469e92b6308e1b7b85562"
+  },
+  "\ud83d\udcdd Concepts/Service.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2d144e634e580f864d383fcadbb35ff0",
+    "semantic_hash": "2d144e634e580f864d383fcadbb35ff0"
+  },
+  "\ud83d\udcdd Concepts/Sharding.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7d829ff059a728f9ddc1e3114f5a5f2b",
+    "semantic_hash": "7d829ff059a728f9ddc1e3114f5a5f2b"
+  },
+  "\ud83d\udcdd Concepts/Split Brain.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "a55002186e114ab455691df5b01b050a",
+    "semantic_hash": "a55002186e114ab455691df5b01b050a"
+  },
+  "\ud83d\udcdd Concepts/Topic Exchange.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0c8b1e262727b9253a63e4da2acbe4e9",
+    "semantic_hash": "0c8b1e262727b9253a63e4da2acbe4e9"
+  },
+  "\ud83d\udcdd Concepts/Topic.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e38f86407561c98aa63be337db538ab1",
+    "semantic_hash": "e38f86407561c98aa63be337db538ab1"
+  },
+  "\ud83d\udcdd Concepts/Transactions.md": {
+    "mtime": 1782850057.9382124,
+    "ast_hash": "119b4a20aa0300f3789c28beaeb8d0ba",
+    "semantic_hash": "119b4a20aa0300f3789c28beaeb8d0ba"
+  },
+  "\ud83d\udcdd Concepts/WebSockets-style Connections.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "444df4cd502b3c5ca13af03d86b045eb",
+    "semantic_hash": "444df4cd502b3c5ca13af03d86b045eb"
+  },
+  "\ud83d\udcdd Concepts/Write Behind.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "19a7474547750335e430898112cc1ae7",
+    "semantic_hash": "19a7474547750335e430898112cc1ae7"
+  },
+  "\ud83d\udcdd Concepts/Write Through.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "0936239289bee6e4df0939dfbf0d4be4",
+    "semantic_hash": "0936239289bee6e4df0939dfbf0d4be4"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/00 - Home.md": {
+    "mtime": 1782848785.0,
+    "ast_hash": "46205f15754c7d61072b1e5d054de0cd",
+    "semantic_hash": "46205f15754c7d61072b1e5d054de0cd"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Caching MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "ef6a16c8217e40adbfa9a3ab395f1987",
+    "semantic_hash": "ef6a16c8217e40adbfa9a3ab395f1987"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Databases MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "d41c2171a512c3307dfac448f10b8d8b",
+    "semantic_hash": "d41c2171a512c3307dfac448f10b8d8b"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Distributed Systems MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "546d4145ec99dfe08ae34fa7ad4f9493",
+    "semantic_hash": "546d4145ec99dfe08ae34fa7ad4f9493"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/How to Drill (Interview Mode).md": {
+    "mtime": 1782848778.0,
+    "ast_hash": "dd38b8e470fd75773e7fdd1f2995a3b3",
+    "semantic_hash": "dd38b8e470fd75773e7fdd1f2995a3b3"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/How to study fast.md": {
+    "mtime": 1782848651.0,
+    "ast_hash": "a8a929c5f354b78eccd09bdc2daf6e82",
+    "semantic_hash": "a8a929c5f354b78eccd09bdc2daf6e82"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Kubernetes MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "c1bde6a82865d8f69ad9606365309133",
+    "semantic_hash": "c1bde6a82865d8f69ad9606365309133"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Low Level Design MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "77e2c0b59992fc0e97345cb8d009d9d8",
+    "semantic_hash": "77e2c0b59992fc0e97345cb8d009d9d8"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Messaging MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "f8fd39da67733b11287a7b12ade795c4",
+    "semantic_hash": "f8fd39da67733b11287a7b12ade795c4"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/Microservices MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "a19e5551e7b049a767c149046932bb88",
+    "semantic_hash": "a19e5551e7b049a767c149046932bb88"
+  },
+  "\ud83d\uddfa\ufe0f MOCs/System Design MOC.md": {
+    "mtime": 1782847075.0,
+    "ast_hash": "b27edab84c2ea61314ee78ae0523d4b0",
+    "semantic_hash": "b27edab84c2ea61314ee78ae0523d4b0"
+  },
+  "\ud83e\udde9 Patterns/API Gateway.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e3ef52288d089afde64826856991a31e",
+    "semantic_hash": "e3ef52288d089afde64826856991a31e"
+  },
+  "\ud83e\udde9 Patterns/Adapter Pattern (Deployment).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "97f9f1eb61f080b53da7ba89f91b537f",
+    "semantic_hash": "97f9f1eb61f080b53da7ba89f91b537f"
+  },
+  "\ud83e\udde9 Patterns/Ambassador Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "f6a2c2157203a95cb07c959b59849e6d",
+    "semantic_hash": "f6a2c2157203a95cb07c959b59849e6d"
+  },
+  "\ud83e\udde9 Patterns/Backend for Frontend (BFF).md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "8298849d8c1c8fe596b94276799d81c1",
+    "semantic_hash": "8298849d8c1c8fe596b94276799d81c1"
+  },
+  "\ud83e\udde9 Patterns/Bulkhead Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "bdf862694efb4aba3fa5c292e0f9cba6",
+    "semantic_hash": "bdf862694efb4aba3fa5c292e0f9cba6"
+  },
+  "\ud83e\udde9 Patterns/CQRS.md": {
+    "mtime": 1782850057.9412124,
+    "ast_hash": "7802b047ed0fb0eb8d23d3c66f16c556",
+    "semantic_hash": "7802b047ed0fb0eb8d23d3c66f16c556"
+  },
+  "\ud83e\udde9 Patterns/Circuit Breaker.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "97941a57ec42cdb5882a71f9be43cbe4",
+    "semantic_hash": "97941a57ec42cdb5882a71f9be43cbe4"
+  },
+  "\ud83e\udde9 Patterns/Database Migration Patterns.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "060ece2cc5fefbd0f2808a5cdfab22a6",
+    "semantic_hash": "060ece2cc5fefbd0f2808a5cdfab22a6"
+  },
+  "\ud83e\udde9 Patterns/Database per Service.md": {
+    "mtime": 1782850057.9462123,
+    "ast_hash": "4bdf7d8f5ed1396e42462de8145cc8fd",
+    "semantic_hash": "4bdf7d8f5ed1396e42462de8145cc8fd"
+  },
+  "\ud83e\udde9 Patterns/Event-Driven Architectures.md": {
+    "mtime": 1782850099.4544787,
+    "ast_hash": "967704fe88394322dfdb2e1b1bba2ee6",
+    "semantic_hash": "967704fe88394322dfdb2e1b1bba2ee6"
+  },
+  "\ud83e\udde9 Patterns/Fallback Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "7ee8a177c2b735c0ad371d2d7322fdca",
+    "semantic_hash": "7ee8a177c2b735c0ad371d2d7322fdca"
+  },
+  "\ud83e\udde9 Patterns/Inbox Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "2def7259d26e50acc5a593de94b7cc51",
+    "semantic_hash": "2def7259d26e50acc5a593de94b7cc51"
+  },
+  "\ud83e\udde9 Patterns/Retry Pattern.md": {
+    "mtime": 1782891215.8279774,
+    "ast_hash": "6996afdeb5e669e51b08bb3655a43b63",
+    "semantic_hash": "6996afdeb5e669e51b08bb3655a43b63"
+  },
+  "\ud83e\udde9 Patterns/SAGA Pattern.md": {
+    "mtime": 1782850037.3830674,
+    "ast_hash": "81e71291168cc43401c5807d5b1a81fb",
+    "semantic_hash": "81e71291168cc43401c5807d5b1a81fb"
+  },
+  "\ud83e\udde9 Patterns/Service Discovery.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "e80d6c4dff5121e88ebb60a86b25a24f",
+    "semantic_hash": "e80d6c4dff5121e88ebb60a86b25a24f"
+  },
+  "\ud83e\udde9 Patterns/Sidecar Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "dc013014fbdf8d40e9286e187a2891b3",
+    "semantic_hash": "dc013014fbdf8d40e9286e187a2891b3"
+  },
+  "\ud83e\udde9 Patterns/Strangler Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "c98fdb0246986fc1899ef965d219f13f",
+    "semantic_hash": "c98fdb0246986fc1899ef965d219f13f"
+  },
+  "\ud83e\udde9 Patterns/Timeout Pattern.md": {
+    "mtime": 1782848762.0,
+    "ast_hash": "3db56b75a88e012424b4b234ebfef77a",
+    "semantic_hash": "3db56b75a88e012424b4b234ebfef77a"
+  },
+  "\ud83e\udde9 Patterns/Transactional Outbox.md": {
+    "mtime": 1782850057.9512124,
+    "ast_hash": "f7ece9c4694158d523d82d5a41eadf9d",
+    "semantic_hash": "f7ece9c4694158d523d82d5a41eadf9d"
+  },
+  "Event-Driven Architectures, the why, how and what/Pasted image 20260608005224.png": {
+    "mtime": 1780860144.8483193,
+    "ast_hash": "2c9c3c4691518155ca2d4c542d8da889",
+    "semantic_hash": "2c9c3c4691518155ca2d4c542d8da889"
+  },
+  "Event-Driven Architectures, the why, how and what/Pasted image 20260608005930.png": {
+    "mtime": 1780860570.8062787,
+    "ast_hash": "59f4fdc7f5e4eb7cc1ddb3b6f9d9bd9f",
+    "semantic_hash": "59f4fdc7f5e4eb7cc1ddb3b6f9d9bd9f"
+  },
+  "Event-Driven Architectures, the why, how and what/Pasted image 20260608005938.png": {
+    "mtime": 1780860578.6092165,
+    "ast_hash": "59f4fdc7f5e4eb7cc1ddb3b6f9d9bd9f",
+    "semantic_hash": "59f4fdc7f5e4eb7cc1ddb3b6f9d9bd9f"
+  },
+  "Event-Driven Architectures, the why, how and what/Pasted image 20260608010425.png": {
+    "mtime": 1780860865.0063894,
+    "ast_hash": "df7b0b6436b226ad4d8e0de0075eedc3",
+    "semantic_hash": "df7b0b6436b226ad4d8e0de0075eedc3"
+  },
+  "Event-Driven Architectures, the why, how and what/Pasted image 20260608010758.png": {
+    "mtime": 1780861078.737451,
+    "ast_hash": "05b32803c0fea0d78ad701838e79a5ad",
+    "semantic_hash": "05b32803c0fea0d78ad701838e79a5ad"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260521110053452.png": {
+    "mtime": 1779341453.4530692,
+    "ast_hash": "1be16aa88b5c713530ca1f91b7c50837",
+    "semantic_hash": "1be16aa88b5c713530ca1f91b7c50837"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260521112326644.png": {
+    "mtime": 1779342806.6439755,
+    "ast_hash": "1c6375628fe1e887b13aad09b1922392",
+    "semantic_hash": "1c6375628fe1e887b13aad09b1922392"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260521112534395.png": {
+    "mtime": 1779342934.3954325,
+    "ast_hash": "f75817ded0051a7b9ad2a267a0ceffd3",
+    "semantic_hash": "f75817ded0051a7b9ad2a267a0ceffd3"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523232826705.png": {
+    "mtime": 1779559106.7054865,
+    "ast_hash": "0eb466844db9eb81a0f6687fd809690e",
+    "semantic_hash": "0eb466844db9eb81a0f6687fd809690e"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523234557700.png": {
+    "mtime": 1779560157.7006128,
+    "ast_hash": "951893d1d9231f11cb7cc26188fb95ee",
+    "semantic_hash": "951893d1d9231f11cb7cc26188fb95ee"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523234621231.png": {
+    "mtime": 1779560181.2314305,
+    "ast_hash": "4389b2fe1dc49ede33f04ce3d09aa878",
+    "semantic_hash": "4389b2fe1dc49ede33f04ce3d09aa878"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523234813031.png": {
+    "mtime": 1779560293.0305781,
+    "ast_hash": "37bdc29d68c65c8cb2e2adef93a96478",
+    "semantic_hash": "37bdc29d68c65c8cb2e2adef93a96478"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523235356919.png": {
+    "mtime": 1779560636.9188082,
+    "ast_hash": "21addab481e138623116fb3bb07ca073",
+    "semantic_hash": "21addab481e138623116fb3bb07ca073"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260523235433629.png": {
+    "mtime": 1779560673.6289394,
+    "ast_hash": "16c4e5621677aa0c848e84fea3085be1",
+    "semantic_hash": "16c4e5621677aa0c848e84fea3085be1"
+  },
+  "SAGAs to maintain data consistency in a microservice architecture/IMG-20260701010818043.png": {
+    "mtime": 1782848298.0443587,
+    "ast_hash": "4275320b1c2672c580b6686f4c10bb7a",
+    "semantic_hash": "4275320b1c2672c580b6686f4c10bb7a"
+  }
+}
