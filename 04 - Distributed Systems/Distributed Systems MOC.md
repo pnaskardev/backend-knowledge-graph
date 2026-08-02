@@ -1,4 +1,3 @@
-# Distributed Systems MOC
 
 > The fundamental models for reasoning about systems that span many machines.
 

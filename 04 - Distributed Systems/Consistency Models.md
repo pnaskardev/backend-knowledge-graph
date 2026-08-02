@@ -130,10 +130,65 @@ The core intuition in here is -
 After I update something i wont later read an older version of my own update.
 ```
 #### Sequential
+Now let's think of an online multiplayer game that we are playing and the video game is being played across two different regional servers.
 
+Since we are playing a video game.
+
+```
+Player A (in India) → scores a point → hits Server A (Asia)
+Player B (in USA)   → scores a point → hits Server B (US)
+```
+
+These two events happened almost at the same physical moment, completely unrelated to each other.
+
+Neither players action depend on each other.
+
+Now every viewer watching the leader board, no matter which server they are reading the data from, needs to see the same sequence of events. Otherwise the leader board will look different to different people and this would cause chaos. Imagine two different viewers arguing on who scored first cause their leader boards disagree.
+
+So the system picks one global order 
+```
+Global agreed order:  Player A scores → Player B scores
+```
+Every single client, everywhere, sees exactly that order. Nobody ever sees "B then A."
+
+Here's the key part that makes it _sequential_ and not _linearizable_: that order doesn't actually have to match the true real-world timestamp order. Maybe B's point technically happened 5 milliseconds before A's in real wall-clock time **doesn't matter**. The system just needed **everyone to agree on the same single ordering**, not for that ordering to be provably "correct" relative to real time.
 #### Causal
+Now to understand _Causal consistency_ let's go back to Instagram app and pick something like Comments section.
 
+Suppose you post a photo and you friend comments on it - 
+```
+Post:    "Just adopted a cat 🐱"
+Comment: "OMG congrats!!"
+```
 
+These two operations aren't independent, the comment depends on the post and if there is no post there should be no comment.
+
+```
+Server A → sees Post, then Comment -- makes sense
+Server B → sees Comment, then Post -- makes no sense
+```
+
+Here the intuitions is -
+```
+Operations that are causally related (one happens because of / after another)
+must be seen by everyone in that same order that they happened.
+
+Operations that are NOT causally related (unrelated actions)
+can be seen in different orders by different nodes, and that's fine.
+```
+
+This basically means that for unrelated actions like unrelated comments on two different photos at the same time.
+
+The servers are allowed to show them in different order because of a very simple reason that nobody cares because there is no inter-dependency between them.
+
+```
+Unrelated actions:
+
+Server A → sees Comment X, then Comment Y
+Server C → sees Comment Y, then Comment X
+
+Both are fine, because X and Y have nothing to do with each other.
+```
 ## 🔗 Connections
 - **Prerequisite:** [[CAP Theorem]] [[PACELC]]
 - **Used by / relates to:** [[Quorum Reads and Writes]] [[Replication]] [[MVCC]]
