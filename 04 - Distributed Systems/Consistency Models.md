@@ -189,7 +189,38 @@ Server C → sees Comment Y, then Comment X
 
 Both are fine, because X and Y have nothing to do with each other.
 ```
+### Putting it all together
+Every model is a bargain, you give up some ordering guarantee and you get back latency, availability, or both.
+
+| Model | What it promises | What it costs | Reach for it when |
+|---|---|---|---|
+| Linearizable | Every operation looks like it happened instantly, at one single point in time, on one single copy | Consensus on every write, cross-node round trips, unavailable during partitions | Money, inventory counts, locks, unique usernames, anything where being wrong once is unacceptable |
+| Sequential | Everyone sees the same one order, but that order need not match real time | Global agreement on ordering, still coordination-heavy | Leaderboards, ordered event logs, replicated state machines |
+| Causal | Things that depend on each other are seen in that order, everything else is free | Tracking causality (version vectors, dependency metadata) | Comment threads, chat messages, replies, social feeds |
+| Read-your-writes | I never see a version of the data older than my own last update | Sticky sessions, or routing reads to the replica that took the write | Profile edits, settings pages, "did my change save?" screens |
+| Eventual | If writes stop, everyone converges | Nothing much, this is the cheap one | Profile pictures, like counts, view counts, caches, CDN content |
+
+### How to actually pick one
+
+The mistake is picking one model for the whole system. Almost nobody does that, and the ones who do are usually overpaying.
+
+Pick per feature, and ask two questions:
+
+1. **If two users see different answers for a few seconds, what breaks?** If the answer is "somebody loses money" or "we sold the same seat twice", you need strong guarantees. If the answer is "the like count is off by three for a moment", you don't.
+2. **Who is confused by the staleness, the person who made the change or a stranger?** If it's the person who made the change, read-your-writes usually fixes the complaint on its own, and it is dramatically cheaper than linearizability.
+
+Instagram is a good example of this mixed approach. The profile picture is eventually consistent, the comment thread is causally ordered, and the username uniqueness check is strongly consistent, all in the same product.
+
+### The one line to remember
+
+> Consistency is not a feature you turn on. It is latency and availability you agree to pay for, and you should only pay for it where being wrong actually hurts.
+
+Everything else in distributed systems, quorums, replication strategies, consensus algorithms, is just machinery for landing on the exact point of that dial you chose.
+
+That's all for today Thanks for reading
+
 ## 🔗 Connections
+
 - **Prerequisite:** [[CAP Theorem]] [[PACELC]]
 - **Used by / relates to:** [[Quorum Reads and Writes]] [[Replication]] [[MVCC]]
 - **Contrast with:** [[Isolation Levels]]
