@@ -13,7 +13,7 @@ The one file that answers **"what do I study after what?"** Work top to bottom. 
 
 ## 🔑 Cross-cutting, highest-leverage topics
 These show up in almost every system design answer. Get them solid early (they live in phases 2–5):
-[[Consistency Models]] · [[Idempotency]] · [[Retry Strategies]] · [[Sharding]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]]
+[[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Sharding]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]]
 
 ---
 
@@ -49,7 +49,7 @@ These show up in almost every system design answer. Get them solid early (they l
 - **Models & trade-offs:** [ ] [[CAP Theorem]] · [ ] [[PACELC]] · [ ] [[Consistency Models]] · [ ] [[Distributed Systems Trade-offs]]
 - **Time & failure:** [ ] [[Clock Synchronization]] · [ ] [[Failure Handling]]
 - **Coordination & consensus:** [ ] [[Consensus Algorithms]] · [ ] [[Leader Election]] · [ ] [[Distributed Locking]] · [ ] [[Split Brain]] · [ ] [[Quorum Reads and Writes]]
-- **Reliability primitives:** [ ] [[Idempotency]] · [ ] [[Retry Strategies]] · [ ] [[Exponential Backoff]] · [ ] [[Jitter]] · [ ] [[Circuit Breaking Concepts]] · [ ] [[Exactly Once vs At Least Once vs At Most Once]]
+- **Reliability primitives:** [ ] [[Idempotency]] · [ ] [[Retry Strategies, Backoff & Jitter]] · [ ] [[Circuit Breaking Concepts]] · [ ] [[Exactly Once vs At Least Once vs At Most Once]]
 - Hub: [[Distributed Systems MOC]]
 
 ## Phase 5 — Scaling & Data Distribution

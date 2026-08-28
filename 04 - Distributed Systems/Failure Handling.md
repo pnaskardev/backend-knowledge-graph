@@ -28,7 +28,7 @@ The system us just slow and nothing else.
 ---
 ## 🔗 Connections
 - **Prerequisite:** [[Distributed Systems Trade-offs]]
-- **Used by / relates to:** [[Retry Strategies]] [[Circuit Breaking Concepts]] [[Bulkhead Pattern]] [[Timeout Pattern]]
+- **Used by / relates to:** [[Retry Strategies, Backoff & Jitter]] [[Circuit Breaking Concepts]] [[Bulkhead Pattern]] [[Timeout Pattern]]
 - **Applied in:** [[Payment Gateway]]
 
 #distributed-systems #review

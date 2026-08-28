@@ -192,13 +192,13 @@ Both are fine, because X and Y have nothing to do with each other.
 ### Putting it all together
 Every model is a bargain, you give up some ordering guarantee and you get back latency, availability, or both.
 
-| Model | What it promises | What it costs | Reach for it when |
-|---|---|---|---|
-| Linearizable | Every operation looks like it happened instantly, at one single point in time, on one single copy | Consensus on every write, cross-node round trips, unavailable during partitions | Money, inventory counts, locks, unique usernames, anything where being wrong once is unacceptable |
-| Sequential | Everyone sees the same one order, but that order need not match real time | Global agreement on ordering, still coordination-heavy | Leaderboards, ordered event logs, replicated state machines |
-| Causal | Things that depend on each other are seen in that order, everything else is free | Tracking causality (version vectors, dependency metadata) | Comment threads, chat messages, replies, social feeds |
-| Read-your-writes | I never see a version of the data older than my own last update | Sticky sessions, or routing reads to the replica that took the write | Profile edits, settings pages, "did my change save?" screens |
-| Eventual | If writes stop, everyone converges | Nothing much, this is the cheap one | Profile pictures, like counts, view counts, caches, CDN content |
+| Model            | What it promises                                                                                  | What it costs                                                                   | Reach for it when                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Linearizable     | Every operation looks like it happened instantly, at one single point in time, on one single copy | Consensus on every write, cross-node round trips, unavailable during partitions | Money, inventory counts, locks, unique usernames, anything where being wrong once is unacceptable |
+| Sequential       | Everyone sees the same one order, but that order need not match real time                         | Global agreement on ordering, still coordination-heavy                          | Leaderboards, ordered event logs, replicated state machines                                       |
+| Causal           | Things that depend on each other are seen in that order, everything else is free                  | Tracking causality (version vectors, dependency metadata)                       | Comment threads, chat messages, replies, social feeds                                             |
+| Read-your-writes | I never see a version of the data older than my own last update                                   | Sticky sessions, or routing reads to the replica that took the write            | Profile edits, settings pages, "did my change save?" screens                                      |
+| Eventual         | If writes stop, everyone converges                                                                | Nothing much, this is the cheap one                                             | Profile pictures, like counts, view counts, caches, CDN content                                   |
 
 ### How to actually pick one
 

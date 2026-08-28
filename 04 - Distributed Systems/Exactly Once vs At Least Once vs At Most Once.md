@@ -1,7 +1,7 @@
 # Exactly Once vs At Least Once vs At Most Once
 
 ## 🔗 Connections
-- **Prerequisite:** [[Idempotency]] [[Retry Strategies]]
+- **Prerequisite:** [[Idempotency]] [[Retry Strategies, Backoff & Jitter]]
 - **Used by / relates to:** [[Kafka]] [[Message Queue]] [[Inbox Pattern]]
 - **Applied in:** [[Payment Gateway]]
 

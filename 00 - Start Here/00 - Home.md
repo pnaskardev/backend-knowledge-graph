@@ -24,7 +24,7 @@
 - [[Microservices MOC]] · [[Kubernetes MOC]] · [[Low Level Design MOC]] · [[System Design MOC]]
 
 ## ⭐ Cross-Cutting Concepts (appear everywhere — study early)
-- [[Consistency Models]] · [[Idempotency]] · [[Retry Strategies]] · [[Circuit Breaker]]
+- [[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Circuit Breaker]]
 - [[Sharding]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]] · [[Quorum Reads and Writes]]
 
 ## ✅ How to use this vault

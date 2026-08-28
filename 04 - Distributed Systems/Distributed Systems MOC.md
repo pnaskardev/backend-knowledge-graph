@@ -20,9 +20,7 @@
 
 ## Reliability
 - [[Idempotency]]
-- [[Retry Strategies]]
-- [[Exponential Backoff]]
-- [[Jitter]]
+- [[Retry Strategies, Backoff & Jitter]]
 - [[Circuit Breaking Concepts]]
 - [[Exactly Once vs At Least Once vs At Most Once]]
 

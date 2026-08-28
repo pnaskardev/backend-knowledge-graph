@@ -6,7 +6,7 @@ Whenever the service is down we need to retry atleast for a few times before we 
 
 ---
 ## 🔗 Connections
-- **Prerequisite:** [[Retry Strategies]] [[Idempotency]]
+- **Prerequisite:** [[Retry Strategies, Backoff & Jitter]] [[Idempotency]]
 - **Used by / relates to:** [[Circuit Breaker]] [[Timeout Pattern]]
 
 #resilience #microservices #review
