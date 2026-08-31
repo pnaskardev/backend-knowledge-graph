@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5054fab21ab3104f",
+        "id": "8ebb5c1a3f4fccc0",
         "type": "tabs",
         "children": [
           {
-            "id": "ca5028ea7aae6c71",
+            "id": "1aac3d444b90bf41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Start Here/How to study fast.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "How to study fast"
-            }
-          },
-          {
-            "id": "cf4bac28701ad942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 - Distributed Systems/Distributed Systems MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Distributed Systems MOC"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +39,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "rate"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -95,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 410.5,
+    "collapsed": true
   },
   "right": {
     "id": "77a1c16d6523c250",
@@ -201,17 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "cf4bac28701ad942",
+  "active": "1aac3d444b90bf41",
   "lastOpenFiles": [
+    "05 - Scaling & Data Distribution/Rate Limiting Algorithms.md",
+    "00 - Start Here/How to study fast.md",
+    "10 - System Design Case Studies/System Design MOC.md",
+    "07 - Microservices & Resilience/Microservices MOC.md",
+    "03 - Caching/Caching MOC.md",
+    "04 - Distributed Systems/Failure Handling.md",
+    "04 - Distributed Systems/Distributed Systems MOC.md",
+    "04 - Distributed Systems/Distributed Systems Trade-offs.md",
     "04 - Distributed Systems/Retry Strategies, Backoff & Jitter.md",
     "04 - Distributed Systems/Retry Strategies.md.tmp.206049.5f25dcad87bc",
-    "00 - Start Here/How to study fast.md",
     "07 - Microservices & Resilience/SAGA Pattern.md",
     "SAGAs to maintain data consistency in a microservice architecture/IMG-20260521110053452.png",
     "04 - Distributed Systems/Consistency Models.md",
-    "04 - Distributed Systems/Distributed Systems MOC.md",
-    "05 - Scaling & Data Distribution/Rate Limiting Algorithms.md",
-    "03 - Caching/Caching MOC.md",
     "03 - Caching/Cache Avalanche.md",
     "04 - Distributed Systems/Quorum Reads and Writes.md",
     "04 - Distributed Systems/Split Brain.md",
@@ -221,7 +207,6 @@
     "00 - Start Here/STUDY_PLAN.md",
     "00 - Start Here/00 - Home.md",
     "04 - Distributed Systems/Distributed Locking.md",
-    "04 - Distributed Systems/Failure Handling.md",
     "10 - System Design Case Studies/URL Shortener.md",
     "04 - Distributed Systems/CAP Theorem.md",
     "_archive/Templates/System Design Template.md",
@@ -230,9 +215,6 @@
     "_archive/Templates/Concept Template.md",
     "_archive/Templates",
     "_archive",
-    "10 - System Design Case Studies/Video Streaming.md",
-    "10 - System Design Case Studies/System Design MOC.md",
-    "10 - System Design Case Studies/Search Engine.md",
     "10 - System Design Case Studies",
     "09 - Low Level Design",
     "08 - Kubernetes & Deployment",
