@@ -11,10 +11,14 @@
             "id": "1aac3d444b90bf41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "05 - Scaling & Data Distribution/Rate Limiting Algorithms.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Rate Limiting Algorithms"
             }
           }
         ]
@@ -39,7 +43,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": "rate"
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -185,6 +189,7 @@
   },
   "active": "1aac3d444b90bf41",
   "lastOpenFiles": [
+    "05 - Scaling & Data Distribution/Pasted image 20260901214801.png",
     "05 - Scaling & Data Distribution/Rate Limiting Algorithms.md",
     "00 - Start Here/How to study fast.md",
     "10 - System Design Case Studies/System Design MOC.md",
@@ -212,7 +217,6 @@
     "_archive/Templates/System Design Template.md",
     "_archive/Templates/Pattern Template.md",
     "_archive/Templates/Interview Questions Template.md",
-    "_archive/Templates/Concept Template.md",
     "_archive/Templates",
     "_archive",
     "10 - System Design Case Studies",
