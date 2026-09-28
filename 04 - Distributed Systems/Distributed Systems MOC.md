@@ -4,24 +4,24 @@
 [[00 - Home|← Home]]
 
 ## Fundamentals
-- [[CAP Theorem]]
-- [[PACELC]]
-- [[Consistency Models]]
+- [x] [[CAP Theorem]]
+- [x] [[PACELC]]
+- [x] [[Consistency Models]]
 - [[Failure Handling]]
 - [[Clock Synchronization]]
 - [[Distributed Systems Trade-offs]]
 
 ## Consensus & Coordination
-- [[Consensus Algorithms]]
-- [[Leader Election]]
-- [[Distributed Locking]]
-- [[Split Brain]]
-- [[Quorum Reads and Writes]]
+- [] [[Consensus Algorithms]]
+- [] [[Leader Election]]
+- [] [[Distributed Locking]]
+- [] [[Split Brain]]
+- [] [[Quorum Reads and Writes]]
 
 ## Reliability
-- [[Idempotency]]
-- [[Retry Strategies, Backoff & Jitter]]
-- [[Circuit Breaking Concepts]]
-- [[Exactly Once vs At Least Once vs At Most Once]]
+- [] [[Idempotency]]
+- [] [[Retry Strategies, Backoff & Jitter]]
+- [] [[Circuit Breaking Concepts]]
+- [] [[Exactly Once vs At Least Once vs At Most Once]]
 
 #moc #distributed-systems
