@@ -5,39 +5,21 @@
 [[00 - Home|← Home]]
 
 ## Fundamentals
-- [[Event Driven Architecture]]
-- [[Message Queue]]
-- [[Publish Subscribe]]
-- [[Point to Point Messaging]]
+- [] [[Message Queue Fundamentals]]
+- [] [[Event-Driven Architectures]]
 
 ## RabbitMQ
-- [[RabbitMQ]]
-- [[Exchange]]
-- [[Queue]]
-- [[Binding]]
-- [[Routing Key]]
-- [[Fanout Exchange]]
-- [[Direct Exchange]]
-- [[Topic Exchange]]
-- [[Headers Exchange]]
-- [[Dead Letter Queue]]
-- [[Poison Messages]]
+- [] [[RabbitMQ]]
+- [] [[RabbitMQ Exchanges & Routing]]
+- [] [[Dead Letter Queues & Poison Messages]]
 
 ## Kafka
-- [[Kafka]]
-- [[Topic]]
-- [[Partition]]
-- [[Producer]]
-- [[Consumer]]
-- [[Consumer Groups]]
-- [[Offset]]
-- [[Kafka Replay]]
+- [] [[Kafka]]
 
 ## Advanced
-- [[Kafka vs RabbitMQ]]
-- [[Message Ordering]]
-- [[Backpressure]]
-- [[Event Versioning]]
-- [[Schema Registry]]
+- [] [[Kafka vs RabbitMQ]]
+- [] [[Message Ordering]]
+- [] [[Backpressure]]
+- [] [[Schema Evolution & Event Versioning]]
 
 #moc #messaging

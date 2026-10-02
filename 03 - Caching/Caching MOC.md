@@ -5,19 +5,14 @@
 [[00 - Home|← Home]]
 
 ## Fundamentals
-- [[Redis]]
-- [[Distributed Cache]]
+- [] [[Redis]]
+- [] [[Distributed Cache]]
 
 ## Patterns
-- [[Cache Aside]]
-- [[Write Through]]
-- [[Write Behind]]
-- [[Refresh Ahead]]
+- [] [[Caching Patterns]]
 
 ## Problems
-- [[Cache Invalidation]]
-- [[Cache Stampede]]
-- [[Cache Avalanche]]
-- [[Cache Penetration]]
+- [] [[Cache Invalidation]]
+- [] [[Cache Failure Modes]]
 
 #moc #caching

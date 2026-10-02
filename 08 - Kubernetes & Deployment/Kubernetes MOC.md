@@ -5,24 +5,19 @@
 [[00 - Home|← Home]]
 
 ## Containers
-- [[Docker]]
-- [[Container]]
+- [] [[Containers & Docker]]
 
 ## Core Objects
-- [[Kubernetes]]
-- [[Pod]]
-- [[Deployment]]
-- [[ReplicaSet]]
-- [[Service]]
-- [[Ingress]]
+- [] [[Kubernetes]]
+- [] [[Pod]]
+- [] [[Deployments & ReplicaSets]]
+- [] [[Service & Ingress]]
 
 ## Configuration
-- [[ConfigMap]]
-- [[Secret]]
+- [] [[ConfigMaps & Secrets]]
 
 ## Scaling & Health
-- [[Horizontal Pod Autoscaler]]
-- [[Liveness Probe]]
-- [[Readiness Probe]]
+- [] [[Horizontal Pod Autoscaler]]
+- [] [[Health Probes]]
 
 #moc #kubernetes

@@ -12,7 +12,7 @@
 2. `02` [[Databases MOC]] — how data is stored, scaled, kept consistent
 3. `03` [[Caching MOC]] — make reads fast
 4. `04` [[Distributed Systems MOC]] — the mental models everything rests on
-5. `05` Scaling & Data Distribution — [[Sharding]], [[Replication]], [[Consistent Hashing]]
+5. `05` Scaling & Data Distribution — [[Sharding & Partitioning]], [[Replication]], [[Consistent Hashing]]
 6. `06` [[Messaging MOC]] — decouple with queues & streams
 7. `07` [[Microservices MOC]] — assemble services from the above
 8. `08` [[Kubernetes MOC]] — deploy & operate them
@@ -24,8 +24,8 @@
 - [[Microservices MOC]] · [[Kubernetes MOC]] · [[Low Level Design MOC]] · [[System Design MOC]]
 
 ## ⭐ Cross-Cutting Concepts (appear everywhere — study early)
-- [[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Circuit Breaker]]
-- [[Sharding]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]] · [[Quorum Reads and Writes]]
+- [[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Resilience Patterns]]
+- [[Sharding & Partitioning]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]] · [[Quorum Reads and Writes]]
 
 ## ✅ How to use this vault
 - Each note is a blank canvas — fill it in **your own words** (definition, why, key trade-off, one recall question). It can grow into a full article any time.

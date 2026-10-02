@@ -5,28 +5,19 @@
 [[00 - Home|← Home]]
 
 ## Basics
-- [[ACID]]
-- [[BASE]]
-- [[SQL vs NoSQL]]
+- [] [[ACID vs BASE]]
+- [] [[SQL vs NoSQL]]
+- [] [[DynamoDB-style Stores]]
 
 ## Storage
-- [[B+ Trees]]
-- [[Clustered Index]]
-- [[Secondary Index]]
-- [[Composite Index]]
-- [[Covering Index]]
+- [] [[B+ Trees]]
+- [] [[Indexing]]
 
 ## Scaling
-- [[Replication]]
-- [[Read Replicas]]
-- [[Sharding]]
-- [[Partitioning]]
+- [] [[Replication]]
+- [] [[Sharding & Partitioning]]
 
 ## Concurrency
-- [[Transactions]]
-- [[Isolation Levels]]
-- [[MVCC]]
-- [[Optimistic Locking]]
-- [[Pessimistic Locking]]
+- [] [[Transactions & Concurrency Control]]
 
 #moc #databases

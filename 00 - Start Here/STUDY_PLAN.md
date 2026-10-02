@@ -13,7 +13,7 @@ The one file that answers **"what do I study after what?"** Work top to bottom. 
 
 ## 🔑 Cross-cutting, highest-leverage topics
 These show up in almost every system design answer. Get them solid early (they live in phases 2–5):
-[[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Sharding]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]]
+[[Consistency Models]] · [[Idempotency]] · [[Retry Strategies, Backoff & Jitter]] · [[Sharding & Partitioning]] · [[Replication]] · [[Consistent Hashing]] · [[Distributed Cache]]
 
 ---
 
@@ -32,52 +32,52 @@ These show up in almost every system design answer. Get them solid early (they l
 
 ## Phase 2 — Databases
 *Prereq for caching, scaling, and every system design. Do this before Phase 5.*
-- **Basics:** [ ] [[ACID]] · [ ] [[BASE]] · [ ] [[SQL vs NoSQL]] · [ ] [[DynamoDB-style Stores]]
-- **Indexing & storage:** [ ] [[B+ Trees]] · [ ] [[Clustered Index]] · [ ] [[Secondary Index]] · [ ] [[Composite Index]] · [ ] [[Covering Index]]
-- **Concurrency:** [ ] [[Transactions]] · [ ] [[Isolation Levels]] · [ ] [[MVCC]] · [ ] [[Optimistic Locking]] · [ ] [[Pessimistic Locking]]
+- **Basics:** [ ] [[ACID vs BASE]] · [ ] [[SQL vs NoSQL]] · [ ] [[DynamoDB-style Stores]]
+- **Indexing & storage:** [ ] [[B+ Trees]] · [ ] [[Indexing]]
+- **Concurrency:** [ ] [[Transactions & Concurrency Control]]
 - Hub: [[Databases MOC]]
 
 ## Phase 3 — Caching
 *Make reads fast. Builds on Databases.*
 - **Fundamentals:** [ ] [[Redis]] · [ ] [[Distributed Cache]]
-- **Write/read patterns:** [ ] [[Cache Aside]] · [ ] [[Write Through]] · [ ] [[Write Behind]] · [ ] [[Refresh Ahead]]
-- **Failure modes:** [ ] [[Cache Invalidation]] · [ ] [[Cache Stampede]] · [ ] [[Cache Avalanche]] · [ ] [[Cache Penetration]]
+- **Write/read patterns:** [ ] [[Caching Patterns]]
+- **Failure modes:** [ ] [[Cache Invalidation]] · [ ] [[Cache Failure Modes]]
 - Hub: [[Caching MOC]]
 
 ## Phase 4 — Distributed Systems Fundamentals
 *The mental models for many-machine systems. The heart of SDE-2 interviews.*
 - **Models & trade-offs:** [ ] [[CAP Theorem]] · [ ] [[PACELC]] · [ ] [[Consistency Models]] · [ ] [[Distributed Systems Trade-offs]]
 - **Time & failure:** [ ] [[Clock Synchronization]] · [ ] [[Failure Handling]]
-- **Coordination & consensus:** [ ] [[Consensus Algorithms]] · [ ] [[Leader Election]] · [ ] [[Distributed Locking]] · [ ] [[Split Brain]] · [ ] [[Quorum Reads and Writes]]
-- **Reliability primitives:** [ ] [[Idempotency]] · [ ] [[Retry Strategies, Backoff & Jitter]] · [ ] [[Circuit Breaking Concepts]] · [ ] [[Exactly Once vs At Least Once vs At Most Once]]
+- **Coordination & consensus:** [ ] [[Consensus & Leader Election]] · [ ] [[Distributed Locking]] · [ ] [[Quorum Reads and Writes]]
+- **Reliability primitives:** [ ] [[Idempotency]] · [ ] [[Retry Strategies, Backoff & Jitter]] · [ ] [[Resilience Patterns]] · [ ] [[Exactly Once vs At Least Once vs At Most Once]]
 - Hub: [[Distributed Systems MOC]]
 
 ## Phase 5 — Scaling & Data Distribution
 *How you grow a system. Needs Databases + Distributed Systems first.*
-- [ ] [[Replication]] · [ ] [[Read Replicas]] · [ ] [[Sharding]] · [ ] [[Partitioning]] · [ ] [[Consistent Hashing]] · [ ] [[Rate Limiting Algorithms]]
+- [ ] [[Replication]] · [ ] [[Sharding & Partitioning]] · [ ] [[Consistent Hashing]] · [ ] [[Rate Limiting Algorithms]]
 
 ## Phase 6 — Messaging & Streaming
 *Async communication. Underpins microservices and event-driven designs.*
-- **Fundamentals:** [ ] [[Event Driven Architecture]] · [ ] [[Message Queue]] · [ ] [[Publish Subscribe]] · [ ] [[Point to Point Messaging]]
-- **RabbitMQ:** [ ] [[RabbitMQ]] · [ ] [[Exchange]] · [ ] [[Queue]] · [ ] [[Binding]] · [ ] [[Routing Key]] · [ ] [[Direct Exchange]] · [ ] [[Fanout Exchange]] · [ ] [[Topic Exchange]] · [ ] [[Headers Exchange]] · [ ] [[Dead Letter Queue]] · [ ] [[Poison Messages]]
-- **Kafka:** [ ] [[Kafka]] · [ ] [[Topic]] · [ ] [[Partition]] · [ ] [[Producer]] · [ ] [[Consumer]] · [ ] [[Consumer Groups]] · [ ] [[Offset]] · [ ] [[Kafka Replay]]
-- **Advanced:** [ ] [[Kafka vs RabbitMQ]] · [ ] [[Message Ordering]] · [ ] [[Backpressure]] · [ ] [[Event Versioning]] · [ ] [[Schema Registry]]
+- **Fundamentals:** [ ] [[Message Queue Fundamentals]] · [ ] [[Event-Driven Architectures]]
+- **RabbitMQ:** [ ] [[RabbitMQ]] · [ ] [[RabbitMQ Exchanges & Routing]] · [ ] [[Dead Letter Queues & Poison Messages]]
+- **Kafka:** [ ] [[Kafka]]
+- **Advanced:** [ ] [[Kafka vs RabbitMQ]] · [ ] [[Message Ordering]] · [ ] [[Backpressure]] · [ ] [[Schema Evolution & Event Versioning]]
 - Hub: [[Messaging MOC]]
 
 ## Phase 7 — Microservices & Resilience Patterns
 *Composing services. Pulls together Databases, Messaging, and Distributed Systems.*
-- **Service design:** [ ] [[Database per Service]] · [ ] [[API Gateway]] · [ ] [[Service Discovery]] · [ ] [[Backend for Frontend (BFF)]]
-- **Communication & data consistency:** [ ] [[SAGA Pattern]] · [ ] [[CQRS]] · [ ] [[Event-Driven Architectures]] · [ ] [[Transactional Outbox]] · [ ] [[Inbox Pattern]]
-- **Resilience:** [ ] [[Circuit Breaker]] · [ ] [[Bulkhead Pattern]] · [ ] [[Retry Pattern]] · [ ] [[Timeout Pattern]] · [ ] [[Fallback Pattern]]
-- **Deployment & migration:** [ ] [[Sidecar Pattern]] · [ ] [[Ambassador Pattern]] · [ ] [[Adapter Pattern (Deployment)]] · [ ] [[Strangler Pattern]] · [ ] [[Database Migration Patterns]]
+- **Service design:** [ ] [[Database per Service]] · [ ] [[API Gateway & BFF]] · [ ] [[Service Discovery]]
+- **Communication & data consistency:** [ ] [[SAGA Pattern]] · [ ] [[CQRS]] · [ ] [[Event-Driven Architectures]] · [ ] [[Outbox & Inbox Patterns]]
+- **Resilience:** [ ] [[Resilience Patterns]]
+- **Deployment & migration:** [ ] [[Sidecar, Ambassador & Adapter Patterns]] · [ ] [[Strangler Pattern]] · [ ] [[Database Migration Patterns]]
 - Hub: [[Microservices MOC]]
 
 ## Phase 8 — Kubernetes & Deployment
 *How services run in production. Independent — can be done any time after Phase 1.*
-- **Containers:** [ ] [[Docker]] · [ ] [[Container]]
-- **Core objects:** [ ] [[Kubernetes]] · [ ] [[Pod]] · [ ] [[Deployment]] · [ ] [[ReplicaSet]] · [ ] [[Service]] · [ ] [[Ingress]]
-- **Configuration:** [ ] [[ConfigMap]] · [ ] [[Secret]]
-- **Scaling & health:** [ ] [[Horizontal Pod Autoscaler]] · [ ] [[Liveness Probe]] · [ ] [[Readiness Probe]]
+- **Containers:** [ ] [[Containers & Docker]]
+- **Core objects:** [ ] [[Kubernetes]] · [ ] [[Pod]] · [ ] [[Deployments & ReplicaSets]] · [ ] [[Service & Ingress]]
+- **Configuration:** [ ] [[ConfigMaps & Secrets]]
+- **Scaling & health:** [ ] [[Horizontal Pod Autoscaler]] · [ ] [[Health Probes]]
 - Hub: [[Kubernetes MOC]]
 
 ## Phase 9 — Low Level Design (OOP)

@@ -5,30 +5,22 @@
 [[00 - Home|← Home]]
 
 ## Service Design
-- [[Database per Service]]
-- [[API Gateway]]
-- [[Service Discovery]]
-- [[Backend for Frontend (BFF)]]
+- [] [[Database per Service]]
+- [] [[API Gateway & BFF]]
+- [] [[Service Discovery]]
 
 ## Communication
-- [[SAGA Pattern]]
-- [[CQRS]]
-- [[Event-Driven Architectures]]
-- [[Transactional Outbox]]
-- [[Inbox Pattern]]
+- [] [[SAGA Pattern]]
+- [] [[CQRS]]
+- [] [[Event-Driven Architectures]]
+- [] [[Outbox & Inbox Patterns]]
 
 ## Resilience
-- [[Circuit Breaker]]
-- [[Bulkhead Pattern]]
-- [[Retry Pattern]]
-- [[Timeout Pattern]]
-- [[Fallback Pattern]]
+- [] [[Resilience Patterns]]
 
 ## Deployment
-- [[Sidecar Pattern]]
-- [[Ambassador Pattern]]
-- [[Adapter Pattern (Deployment)]]
-- [[Strangler Pattern]]
-- [[Database Migration Patterns]]
+- [] [[Sidecar, Ambassador & Adapter Patterns]]
+- [] [[Strangler Pattern]]
+- [] [[Database Migration Patterns]]
 
 #moc #microservices

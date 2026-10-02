@@ -1,3 +1,6 @@
+---
+aliases: [Event Driven Architecture]
+---
 # Event-Driven Architectures, the why, how and what
 
 When people first start to build microservices they tend to build REST interfaces around everything and we end up with big long call chains and potentially increased latency and worse is if the Service B is down and Service A is trying to make a call, this makes sure that we have missed the event.
