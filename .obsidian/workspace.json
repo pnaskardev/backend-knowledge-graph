@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1b128f6c74a8309b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Prep/system_design_topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "system_design_topics"
+            }
+          },
+          {
             "id": "7e74723f14187cba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/kirana_club.md",
+                "file": "Interview Prep/kirana_club_round2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kirana_club"
+              "title": "kirana_club_round2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,8 +203,14 @@
   },
   "active": "7e74723f14187cba",
   "lastOpenFiles": [
-    "02 - Databases/ACID vs BASE.md",
+    "Interview Prep/order_placement_design.md",
+    "Interview Prep/order_placement_design.md.tmp.6717.c103da1594f6",
+    "Interview Prep/system_design_topics.md",
+    "Interview Prep/kirana_club_round2.md",
+    "04 - Distributed Systems/CAP Theorem.md",
+    "04 - Distributed Systems/Consistency Models.md",
     "Interview Prep/kirana_club.md",
+    "02 - Databases/ACID vs BASE.md",
     "Interview Prep/kirana_club.md.bak",
     "02 - Databases/Databases MOC.md",
     "00 - Start Here/How to study fast.md",
@@ -201,7 +222,6 @@
     "00 - Start Here/STUDY_PLAN.md.tmp.173107.5ff95bbf6f5e",
     "00 - Start Here/STUDY_PLAN.md.tmp.173107.5f5a2b4f5001",
     "00 - Start Here/STUDY_PLAN.md.tmp.173107.ffed158455ef",
-    "00 - Start Here/STUDY_PLAN.md.tmp.173107.0296240fdefc",
     "08 - Kubernetes & Deployment/Health Probes.md",
     "08 - Kubernetes & Deployment/ConfigMaps & Secrets.md",
     "08 - Kubernetes & Deployment/Service & Ingress.md",
@@ -219,11 +239,6 @@
     "04 - Distributed Systems/Consensus & Leader Election.md",
     "03 - Caching/Cache Failure Modes.md",
     "03 - Caching/Caching Patterns.md",
-    "02 - Databases/Transactions & Concurrency Control.md",
-    "02 - Databases/Indexing.md",
-    "02 - Databases/ACID.md",
-    "04 - Distributed Systems/Distributed Systems MOC.md",
-    "04 - Distributed Systems/Failure Handling.md",
     "05 - Scaling & Data Distribution/Pasted image 20260901214801.png",
     "SAGAs to maintain data consistency in a microservice architecture/IMG-20260521110053452.png",
     "SAGAs to maintain data consistency in a microservice architecture/IMG-20260701010818043.png",

@@ -110,7 +110,7 @@ If no new updates happen, all replicas will eventually converge to the same data
 ```
 
 ```
-NOTE -It does not guarantee that every write happens and everyone will see immediately.
+NOTE - It does not guarantee that every write happens and everyone will see immediately.
 ```
 
 This way the system as whole may not be very consistent but definitely available.

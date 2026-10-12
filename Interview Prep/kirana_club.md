@@ -5,17 +5,6 @@
 **Your position:** ~3 years (Oct 2023 → Oct 2026), Go + Node/TS + PostgreSQL. Squarely in band, direct stack match.
 
 ---
-
-## How to read this document
-
-This is written as paragraphs instead of bullet points on purpose. The goal isn't to memorise facts. It's to reload **mental models** — the "why" behind things, so you can work out an answer you never practised. Interviews always ask something that isn't on your list. What saves you is having the model in your head: *why* MVCC causes bloat, *why* a timeout is ambiguous, *why* microservices swap one kind of pain for another. Once you have the model, the answer falls out on its own.
-
-Read it start to finish once tonight. Tomorrow morning, re-read only the bolded sentences — they're the hooks that pull the rest back into your head.
-
-A note on what a 30-minute round actually looks like. It isn't a full DSA round and it isn't a full design round. At a fast-growing startup hiring an SDE 2, this slot is a screening deep-dive. Expect roughly 3–5 minutes of intro, 10–12 minutes digging into one project from your resume, 6–8 minutes of rapid-fire fundamentals, 5–8 minutes on a small design or debugging question, and 2–3 minutes for your questions. So **the highest-value prep is making your own resume survive hard follow-up questions**, not grinding algorithms.
-
----
-
 # Part 0 — The introduction
 
 The round opens with "tell me about yourself." Three to five minutes are set aside for it, but **you should take under a minute, not three.** A tight intro that ends on a hook makes the interviewer dig where you're strongest. A rambling one lets them pick. The job of this answer isn't to summarise your resume — they already have it. It's to **choose what the next ten minutes will be about.**
@@ -29,44 +18,7 @@ Use this one. It's shorter than you think it should be. That's the point.
 > I'm Priyanshu — about three years in backend, Go and Python over Postgres.
 >
 > First year at Alemeno on Django REST APIs for an ed-tech product at around 400,000 students, mostly caching and multi-tenancy work. Last two years at Kazam EV Tech writing Go, where I built the founding backend for a national EV-charging interoperability platform on the Beckn protocol — about 3,400 chargers, 20,000 transactions a day.
->
-> The part I'd point to is the order and payment lifecycle. Money moves across three parties and any hop can time out or send a webhook twice, so I built it idempotent over Postgres with a state machine and a reconciliation job against the provider's settlement file. That's what removed duplicate charges and ghost transactions.
->
-> That's the problem I'd like to keep working on, and it looks like it sits close to the centre of what you're building.
 
-## The thirty-second version
-
-If the interviewer seems short on time, or they've clearly already read your resume and are just opening the conversation.
-
-> Three years backend, Go and Python over Postgres. A year at Alemeno on Django APIs at 400K-student scale, two years at Kazam building the founding backend for a national EV-charging network on the Beckn protocol — Go services, around 20,000 transactions a day. The part I'd want to talk about is the payment lifecycle: idempotent, webhook-driven, state machine over Postgres, with reconciliation against the provider's settlement file.
-
-## The long version — only if they ask
-
-Use this **only** if they say "walk me through your resume" or "take your time." That's a different question from "tell me about yourself." Add, after the Alemeno sentence:
-
-> Most of my work there was performance and isolation — a Redis cache-aside layer that cut response times about 65% on the hot endpoints, and per-tenant data isolation for a multi-tenant diagnostics SaaS.
-
-and after the payment paragraph:
-
-> What interests me about Kirana Club is that it looks like the same problem shaped differently — retailers on patchy networks retrying, bursty ordering, partial fulfilment as the normal case rather than an error.
-
-## Delivery notes
-
-**End on the hook, then stop talking.** The last line is bait for the idempotency deep-dive, which is the ground you want the round fought on. Don't carry on into projects or education — if they want Pujo Atlas or Mattermost, they'll ask. **The silence after your last sentence is the interviewer deciding what to ask, not a gap you need to fill.** Candidates lose this round by talking past the hook.
-
-**Lead with the stack, not the company.** They care that it's Go and Postgres before they care what Kazam does. One line about the domain is enough.
-
-**Don't explain Beckn in the intro.** Name it and move on. If they ask, you have the 60-second explanation in §1.1 — and them asking is a good outcome, because it means you set the agenda.
-
-**Round your numbers in the intro.** "About 3,400 chargers," "around 20,000 a day," "about 65%." Exact-to-the-digit numbers in a spoken intro sound rehearsed. The precise figures belong in the follow-up, where you also know how they were measured.
-
-**Don't say "I'm passionate about."** The hook does that job by being specific.
-
-## The two follow-ups that come straight off this intro
-
-*Why are you looking to move?* Keep it forward-looking and don't complain. You've spent two years on payments and reliability at Kazam, the EV platform is built and stable, and you want the same kind of problem at higher volume and closer to the product. **Never criticise Kazam, the codebase, or a manager** — the interviewer hears a preview of how you'll talk about them later.
-
-*What do you want to work on here?* Have one concrete answer: the order and fulfilment path. It's honest, it matches your resume, and it's where your experience transfers most directly.
 
 ---
 
@@ -434,43 +386,7 @@ Saying one or two of these unprompted will set you apart more than any single te
 
 ---
 
-# Part 12 — Node.js and TypeScript
-
-The JD says "Go **or** JavaScript," and your resume has both — the multi-tenant SaaS and the LLM tool services are Node/TS. There's a real chance your interviewer's main stack is Node, in which case the Go section does you no good. This part is the other half.
-
-## 12.1 The event loop — the model everything else follows from
-
-Node runs your JavaScript on **one thread**. The event loop cycles through phases — timers (`setTimeout`/`setInterval` callbacks), pending callbacks, poll (I/O), check (`setImmediate`), close — and **between every phase it fully drains the microtask queue**, which is promise callbacks and `queueMicrotask`, with `process.nextTick` draining before even those. Because microtasks drain completely, an endless chain of promise resolutions starves the loop just as effectively as a `while(true)`.
-
-The most important consequence: **blocking the event loop blocks the entire process, for every request at once.** That's the structural difference from Go, where one blocked goroutine costs you one request. The usual culprits are `JSON.parse`/`stringify` on a big payload, synchronous `fs` calls, a regex with catastrophic backtracking, bcrypt or PBKDF2 at high cost factors, and large array transforms in a hot path. The fixes, from laziest up: don't do it; do it in chunks and yield to the loop; move it to `worker_threads`; or move it out of the request path entirely into a queue.
-
-The second thing to know is that **Node isn't purely single-threaded** — libuv keeps a thread pool, **four threads by default**, used by filesystem operations, DNS `getaddrinfo` lookups, `crypto` key derivation and `zlib`. Network I/O does *not* use it; it uses the OS event notification mechanism. So a service doing heavy bcrypt saturates four threads and starts queueing, and `UV_THREADPOOL_SIZE` is the knob. Knowing this split — network I/O is truly async, file and crypto I/O go through the pool — is a real seniority signal in a Node interview.
-
-For multiple cores you run multiple processes: `cluster`, or more commonly in a container world, **multiple containers behind a load balancer**, which is simpler and the same idea. Flag this unprompted: it breaks any in-process state — in-memory caches, rate-limiter counters, WebSocket connection maps — which is exactly why that state belongs in Redis.
-
-## 12.2 Async correctness
-
-`Promise.all` rejects on the first failure and abandons the rest. `allSettled` waits for everything and reports each outcome. `race` settles on the first to settle either way. `any` settles on the first to *succeed*. For fanning out to partner APIs — your Beckn problem in Node form — `allSettled` with per-call timeouts is almost always what you want, because one slow partner shouldn't fail the whole thing.
-
-**An unhandled promise rejection kills the process by default in modern Node.** And in Express 4, an async route handler that throws does *not* reach your error middleware, because the rejection never gets passed to `next()` — you need a wrapper, or Express 5, which handles it. This is the most common production Node bug there is and a very plausible interview question.
-
-Other things worth having loaded. **Backpressure**: piping a fast source into a slow sink without honouring `drain` grows memory without limit, which is what `stream.pipeline` exists to handle. **Connection pooling** with `pg`, where a forgotten `client.release()` in an error path drains the pool, and the symptom is the whole service hanging rather than erroring — so the release belongs in `finally`. And **`AsyncLocalStorage`**, the Node equivalent of Go's `context` for carrying a request/trace/tenant ID through a call chain without threading it through every function signature.
-
-## 12.3 TypeScript, honestly
-
-The thing to say about TypeScript is that **types are erased at runtime**, so they buy you nothing at the trust boundary. An HTTP body typed as `OrderRequest` is a claim, not a check — the actual guarantee comes from runtime validation at the edge, Zod or similar, with the static type *derived* from the schema so the two can't drift apart. Everything inside that boundary can then rely on types; everything crossing it can't. Mention `strict` mode and that every `any` is a hole runtime errors come through, and you've said everything that matters.
-
-## 12.4 "Would you build this in Go or Node?"
-
-Don't answer with a preference. Answer with the axis: **Node is great for I/O-bound services that mostly orchestrate other services, where the ecosystem and iteration speed win. Go is better when there's real CPU work, when you want goroutine-per-request simplicity with true parallelism, when predictable latency and a small memory footprint matter, or when you want static binaries and types enforced at compile time.** Then name the factor that actually decides it at a startup, which is usually neither: what the team already runs. Adding a second language for one service is a maintenance cost that a correctness argument rarely covers.
-
-## 12.5 If they hand you a small coding exercise
-
-A 30-minute round rarely has a real DSA segment, but "write a function that..." is plausible. The rules that matter more than the algorithm: **say your assumptions out loud before typing**, handle the empty and single-element cases on purpose rather than by luck, state the complexity without being asked, and if you reach for a map, say why. If you get to pick the language, pick the one the role is hiring for. Given this JD, the likely shapes are a rate limiter, an LRU cache, deduplicating a stream of events by ID, merging overlapping intervals, or a bounded-concurrency `Promise` pool — all things you've actually built rather than puzzles.
-
----
-
-# Part 13 — Debugging production
+# Part 12 — Debugging production
 
 The JD says "debug production issues" and "improve reliability" explicitly. This is the most likely non-design scenario question, and it usually arrives as **"it's 2am, p99 latency on the order API just tripled, walk me through what you do."** Most candidates start guessing causes. The score is in the method.
 
@@ -493,26 +409,7 @@ Structured logs carrying a **correlation ID** passed across service hops, so one
 **Have one real incident ready in STAR form**: the alert, what you checked first, the wrong guess you dropped and why, the actual cause, the mitigation, and — the part that separates senior answers — **the class-level fix**, what you changed so that whole category of bug couldn't come back, not just the one instance. If the honest answer to "what broke" on your Beckn work is partner timeouts, stale availability, or duplicate callbacks, that's a perfectly good incident. It doesn't have to be a dramatic outage.
 
 ---
-
-# Part 14 — Behavioural, ambiguity, and working with founders
-
-The JD asks for "comfort with ambiguity and changing requirements," and the role sits close to the founder and CTO. That isn't filler — at a company this size, an engineer who needs a finished spec is a tax on the two busiest people. Expect two or three behavioural questions and treat them as technically scored.
-
-**The format for every one: ninety seconds, STAR, one concrete decision, and name what it cost.** The failure mode is a general philosophy with no specific example. The second failure mode is a story with no decision in it.
-
-*Tell me about a time requirements changed mid-build.* The answer that lands at a startup isn't "I adapted" — it's that you'd already set the work up so changing was cheap. Name which decisions you deliberately put off and which you committed to. The useful vocabulary is **one-way versus two-way doors**: a data model, a published API contract, an external partner integration, and anything a client has already cached are expensive to reverse, so those get real thought. An internal service boundary, a caching strategy, a queue choice, a library — those are cheap to change later, so you pick something reasonable and move. "I spent my design time on the parts that are hard to undo and defaulted the rest" is the senior framing.
-
-*How do you work from a vague requirement?* Say the outcome back in your own words and get it confirmed. Find the smallest version that's genuinely usable and put it in front of someone early. Write the unknowns down as stated assumptions instead of silently guessing. Founders give you outcomes, not specs — **turning an outcome into constraints is the job, not an obstacle to it.**
-
-*Tell me about a disagreement with a senior engineer or your manager.* State your position, say what evidence would change your mind, bring data, then commit to the decision either way. Don't tell a story that ends with you being proven right. The question is testing whether you can disagree without being difficult.
-
-*How do you balance shipping speed against reliability?* The only principled answer is **blast radius**. Money, ledger, auth and anything irreversible never gets the fast path — those get the idempotency key, the constraint, the test and the reconciliation check. A feed ranking tweak, an internal dashboard, a non-critical read path can ship rough and get fixed forward. Having built a payments path, you can say this from experience rather than principle, and tie it directly: *the reason I'm comfortable shipping fast elsewhere is that I know which surfaces are expensive to reverse.*
-
-*What's your biggest mistake / what would you do differently?* Covered in Part 15. Don't reach for a disguised strength — "I care too much" wastes the question. A real, bounded, fixed mistake with a lesson at the class level scores highest.
-
----
-
-# Part 15 — The three answers you still owe yourself
+# Part 14 — The three answers you still owe yourself
 
 These are the gaps you spotted and haven't written yet. They're worth more than another pass over Postgres, because they're the questions where a blank is most obvious. **Write each one out in full sentences, once, tonight.** One rule for all three: use something that actually happened. A made-up story falls apart on the second follow-up, and the second follow-up is exactly what this interviewer is doing.
 
@@ -543,43 +440,6 @@ Likely real candidates to check against memory rather than just adopt: a partner
 The strong shape is three clauses: **the decision, why it was right given the constraints at the time, and what you know now that would change it.** "It was wrong" on its own reads as bad judgement back then. "It was right and still is" reads as no reflection since.
 
 Plausible, defensible shapes for your systems — again, only if true: enforcing tenant isolation with Row-Level Security from day one instead of relying on a disciplined data-access layer, because the application-layer approach works right up until someone writes a query that bypasses it; introducing the transactional outbox earlier instead of publishing events after commit, because the window where a commit succeeds and the publish fails is small but not zero; using keyset pagination from the start on anything that grows; building the reconciliation job *before* the feature instead of after the first manual break, because that independent check is what lets you make a claim like "no lost transactions" at all.
-
----
-
-# Part 16 — Tonight's plan and final checks
-
-Keep this order even if you shorten the blocks. It's sorted by expected return.
-
-| Block | Time | Focus |
-|---|---|---|
-| 1 | 15 min | **Part 0** — say the intro out loud, timed, three times, until it lands at 55–60 seconds without reading. |
-| 2 | 60 min | Write out your four stories in STAR form. Say the idempotency one out loud, timed, twice. |
-| 3 | 45 min | Idempotency deep-dive: redraw the state machine from memory, rehearse the concurrent-duplicate answer word for word. |
-| 4 | 30 min | **Part 15** — write all three: the AI-tooling story, one went-wrong per project, one do-differently per project. In sentences, not bullets. |
-| 5 | 40 min | **Appendix A** — drill the resume cross-examination out loud. Decide your position on the six unbacked skills; draft the deflation sentences in A.14. |
-| 6 | 45 min | Postgres: MVCC, isolation problems, locking, index types, reading EXPLAIN. Write the anomaly table out by hand. |
-| 7 | 30 min | Go: context propagation, channel semantics, goroutine leaks, errgroup. Write a bounded worker pool once. |
-| 8 | 20 min | **Part 13** — rehearse the "p99 tripled at 2am" walkthrough out loud. Pick your one real incident. |
-| 9 | 30 min | **Microservices** — re-read Part 6 and be able to argue both for and against splitting things up. |
-| 10 | 30 min | Redis and Kafka: invalidation, stampede, partition ordering, transactional outbox. |
-| 11 | 30 min | Mock the order-placement design on paper, strictly timed at 15 minutes, then review what you missed. |
-| 12 | 20 min | **Part 12** — event loop, libuv thread pool, async error handling. Skip only if you already know their stack is Go. |
-| 13 | 15 min | **Part 14** — pick one story each for changed requirements and disagreement. Company notes. Pick your two questions. |
-| 14 | — | **Sleep.** Being sharp for thirty minutes beats one more hour of notes. |
-
-That's roughly seven hours and you don't have seven hours. **If you cut, cut from the bottom of this list, not the top** — blocks 1 through 5 are the ones that decide the round, because they're the only things guaranteed to come up. Block 12 is the biggest gamble either way: worth 20 minutes if you can't rule out a Node interviewer, worth zero if you can.
-
-**Morning of 8 Oct, 30–40 minutes.** Re-read your resume line by line and assume **every number is fair game**: 3,420 chargers, 20,000 daily transactions, 400,000 students, 65%, 80%, 871K searches, 10.8K DAU, sub-200ms, 1,200+ vendors, 20+ tenants, 12+ tenants. Know what each one means, how it was measured, and over what period. Say the idempotency story once. Test audio and video, close everything else, and keep paper and pen visible on camera — reaching for paper during a design question reads as competence, not stalling.
-
-**Final checklist.** Every number defensible. The idempotency story told in two minutes with a state machine you can draw. The concurrent-duplicate answer crisp and race-free. Postgres isolation levels and anomalies loaded. MVCC explained as the cause of bloat rather than a separate fact. Context cancellation and goroutine leaks explainable. Cache invalidation articulated, including the delete-then-repopulate race. Transactional outbox explainable by name. **A reasoned position on when microservices are and aren't worth it.** One "what I'd do differently" per project. The AI-tooling story with a real incident in it. The intro at 55 seconds, ending on the hook. Two questions picked.
-
-## Three things that decide this round
-
-**Depth beats breadth.** One project explained all the way down beats five described at the surface. If you only get to talk about one thing, make it the idempotent payment lifecycle.
-
-**Name your trade-offs out loud.** "I chose X over Y because Z, and the cost was W." That sentence pattern *is* the SDE-2 bar, and it's the easiest thing to add to answers you already know.
-
-**Say "I don't know" quickly, then reason from fundamentals.** "I haven't run that in production, but I'd expect it behaves like this because of X, and I'd verify by Y" scores far higher than a confident wrong answer — especially at a company that explicitly screens for the ability to evaluate output critically rather than accept it.
 
 ---
 
